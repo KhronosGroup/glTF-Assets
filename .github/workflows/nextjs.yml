@@ -8,13 +8,15 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  schedule:
+    - cron: "0 0 * * *"   # runs daily, UTC time
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +35,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: 'true'
+      - name: Pull latest submodules
+        run: |
+          git submodule update --init --recursive --remote
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -75,6 +80,22 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      - name: Generate metadata
+        run: ${{ steps.detect-package-manager.outputs.manager }} run metadata
+      - name: Check metadata
+        run: git status
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit changes
+        run: |
+          git add src/data/model-index.SampleAssets.json
+          git commit -m "Add model-index.SampleAssets.json from GitHub Action" || echo "Nothing to commit"
+      - name: Push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git push
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
