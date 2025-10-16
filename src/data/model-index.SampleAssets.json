@@ -13,12 +13,14 @@
     ],
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ABeautifulGame/glTF/ABeautifulGame.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb",
       "glTF-Binary-KTX-ETC1S-Draco": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ABeautifulGame/glTF-Binary-KTX-ETC1S-Draco/ABeautifulGame.glb"
     },
     "extensionsUsed": [
       "KHR_materials_transmission",
       "KHR_materials_volume"
     ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ABeautifulGame/glTF-Binary/ABeautifulGame.glb",
     "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ABeautifulGame/glTF/ABeautifulGame.gltf",
     "image": "/images/ABeautifulGame.webp",
     "thumbnail": "/images/ABeautifulGame.webp",
@@ -968,6 +970,59 @@
     ],
     "isOnRenderFidelity": false
   },
+  "CarConcept": {
+    "name": "CarConcept",
+    "label": "Car Concept",
+    "description": "Concept car with Khronos logos and material variants",
+    "tags": [
+      "Showcase",
+      "Extension",
+      "Clearcoat",
+      "Emissive",
+      "Iridescence",
+      "Transmission",
+      "Variants",
+      "Texture Transform",
+      "Draco",
+      "KTX"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF/CarConcept.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-Binary/CarConcept.glb",
+      "glTF-JPG": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-JPG/CarConcept.gltf",
+      "glTF-KTX-BasisU-Draco": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-KTX-BasisU-Draco/CarConcept.gltf",
+      "glTF-WEBP": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-WEBP/CarConcept.gltf"
+    },
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_iridescence",
+      "KHR_materials_transmission",
+      "KHR_materials_variants",
+      "KHR_texture_transform"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-Binary/CarConcept.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF/CarConcept.gltf",
+    "image": "/images/CarConcept.webp",
+    "thumbnail": "/images/CarConcept.webp",
+    "camera": {
+      "yaw": 45,
+      "pitch": 20,
+      "distance": 0
+    },
+    "keywords": "[car, red, vehicle, transportation, sports car, luxury, high-performance, sleek, fast, powerful, engine, wheels, interior, exterior, design, style, speed, acceleration, handling, braking]",
+    "license": [
+      {
+        "license": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Eric Chadwick"
+    ],
+    "isOnRenderFidelity": false
+  },
   "CarbonFibreBall": {
     "name": "CarbonFibreBall",
     "label": "Carbon Fibre Ball",
@@ -996,57 +1051,6 @@
     "license": [
       {
         "license": "CC-BY International 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Eric Chadwick"
-    ],
-    "isOnRenderFidelity": false
-  },
-  "CarConcept": {
-    "name": "CarConcept",
-    "label": "Car Concept",
-    "description": "Concept car with Khronos logos and material variants",
-    "tags": [
-      "Showcase",
-      "Extension",
-      "Clearcoat",
-      "Emissive",
-      "Iridescence",
-      "Transmission",
-      "Variants",
-      "Texture Transform",
-      "Draco",
-      "KTX"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF/CarConcept.gltf",
-      "glTF-JPG": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-JPG/CarConcept.gltf",
-      "glTF-KTX-BasisU-Draco": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-KTX-BasisU-Draco/CarConcept.gltf",
-      "glTF-WEBP": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF-WEBP/CarConcept.gltf"
-    },
-    "extensionsUsed": [
-      "KHR_materials_clearcoat",
-      "KHR_materials_emissive_strength",
-      "KHR_materials_iridescence",
-      "KHR_materials_transmission",
-      "KHR_materials_variants",
-      "KHR_texture_transform"
-    ],
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarConcept/glTF/CarConcept.gltf",
-    "image": "/images/CarConcept.webp",
-    "thumbnail": "/images/CarConcept.webp",
-    "camera": {
-      "yaw": 45,
-      "pitch": 20,
-      "distance": 0
-    },
-    "keywords": "[car, red, vehicle, transportation, sports car, luxury, high-performance, sleek, fast, powerful, engine, wheels, interior, exterior, design, style, speed, acceleration, handling, braking]",
-    "license": [
-      {
-        "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
       }
@@ -2738,41 +2742,6 @@
     ],
     "isOnRenderFidelity": true
   },
-  "InterpolationTest": {
-    "name": "InterpolationTest",
-    "label": "Interpolation Test",
-    "description": "A sample with three different animation interpolations",
-    "tags": [
-      "Testing",
-      "Animation",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
-    "image": "/images/InterpolationTest.webp",
-    "thumbnail": "/images/InterpolationTest.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[linear, step, cubicspline, 3d, rendering, animation, graphics, design, art, illustration, visualization, modeling, simulation, physics, engineering, architecture, computer-aided, software, technology, innovation], Animated",
-    "license": [
-      {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Khronos"
-    ],
-    "isOnRenderFidelity": true
-  },
   "IORTestGrid": {
     "name": "IORTestGrid",
     "label": "IORTestGrid",
@@ -2815,6 +2784,41 @@
       "Eric Chadwick"
     ],
     "isOnRenderFidelity": false
+  },
+  "InterpolationTest": {
+    "name": "InterpolationTest",
+    "label": "Interpolation Test",
+    "description": "A sample with three different animation interpolations",
+    "tags": [
+      "Testing",
+      "Animation",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
+    "image": "/images/InterpolationTest.webp",
+    "thumbnail": "/images/InterpolationTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[linear, step, cubicspline, 3d, rendering, animation, graphics, design, art, illustration, visualization, modeling, simulation, physics, engineering, architecture, computer-aided, software, technology, innovation], Animated",
+    "license": [
+      {
+        "license": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Khronos"
+    ],
+    "isOnRenderFidelity": true
   },
   "IridescenceAbalone": {
     "name": "IridescenceAbalone",
@@ -3474,39 +3478,6 @@
     ],
     "isOnRenderFidelity": true
   },
-  "MultipleScenes": {
-    "name": "MultipleScenes",
-    "label": "Multiple Scenes",
-    "description": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh. ",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
-      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF-Embedded/MultipleScenes.gltf"
-    },
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
-    "image": "/images/MultipleScenes.webp",
-    "thumbnail": "/images/MultipleScenes.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[gray, square, background, solid, color, design, simple, minimal, aesthetic, clean, modern, neutral, tone, palette, monochromatic, texture, flat, visual, element]",
-    "license": [
-      {
-        "license": "Public Domain / CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Public"
-    ],
-    "isOnRenderFidelity": false
-  },
   "MultiUVTest": {
     "name": "MultiUVTest",
     "label": "MultiUV Test",
@@ -3541,6 +3512,39 @@
       "Hilo 3D"
     ],
     "isOnRenderFidelity": true
+  },
+  "MultipleScenes": {
+    "name": "MultipleScenes",
+    "label": "Multiple Scenes",
+    "description": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh. ",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
+      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF-Embedded/MultipleScenes.gltf"
+    },
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
+    "image": "/images/MultipleScenes.webp",
+    "thumbnail": "/images/MultipleScenes.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[gray, square, background, solid, color, design, simple, minimal, aesthetic, clean, modern, neutral, tone, palette, monochromatic, texture, flat, visual, element]",
+    "license": [
+      {
+        "license": "Public Domain / CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Public"
+    ],
+    "isOnRenderFidelity": false
   },
   "NegativeScaleTest": {
     "name": "NegativeScaleTest",
