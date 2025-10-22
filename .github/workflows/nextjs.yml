@@ -48,7 +48,7 @@ jobs:
             exit 0
           elif [ -f "${{ github.workspace }}/package.json" ]; then
             echo "manager=npm" >> $GITHUB_OUTPUT
-            echo "command=i" >> $GITHUB_OUTPUT
+            echo "command=ci" >> $GITHUB_OUTPUT
             echo "runner=npx --no-install" >> $GITHUB_OUTPUT
             exit 0
           else
@@ -92,7 +92,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Commit changes
         run: |
-          git add package-lock.json
           git add src/data/model-index.SampleAssets.json
           git commit -m "Add model-index.SampleAssets.json from GitHub Action" || echo "Nothing to commit"
       - name: Push changes
