@@ -92,6 +92,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Commit changes
         run: |
+          git add package-lock.json
           git add src/data/model-index.SampleAssets.json
           git commit -m "Add model-index.SampleAssets.json from GitHub Action" || echo "Nothing to commit"
       - name: Push changes
