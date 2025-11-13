@@ -2060,6 +2060,45 @@
     ],
     "isOnRenderFidelity": true
   },
+  "CubeVisiblitytestforKHR_node_visibility": {
+    "name": "CubeVisiblitytestforKHR_node_visibility",
+    "label": "Cube Visiblity test for KHR_node_visibility",
+    "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
+    "tags": [
+      "Testing",
+      "Animation Pointer",
+      "Animation"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CubeVisibility/glTF/CubeVisibility.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CubeVisibility/glTF-Binary/CubeVisibility.glb"
+    },
+    "extensionsUsed": [
+      "KHR_animation_pointer",
+      "KHR_node_visibility"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CubeVisibility/glTF-Binary/CubeVisibility.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CubeVisibility/glTF/CubeVisibility.gltf",
+    "image": "/images/CubeVisiblitytestforKHR_node_visibility.webp",
+    "thumbnail": "/images/CubeVisiblitytestforKHR_node_visibility.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": ", Animated",
+    "license": [
+      {
+        "license": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Aaron Franke"
+    ],
+    "isOnRenderFidelity": false
+  },
   "DamagedHelmet": {
     "name": "DamagedHelmet",
     "label": "Damaged Helmet",
@@ -3122,6 +3161,47 @@
       "Frank Galligan"
     ],
     "isOnRenderFidelity": true
+  },
+  "LightVisiblitytestforKHR_node_visibility": {
+    "name": "LightVisiblitytestforKHR_node_visibility",
+    "label": "Light Visiblity test for KHR_node_visibility",
+    "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
+    "tags": [
+      "Testing",
+      "Animation Pointer",
+      "Lights",
+      "Animation"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb"
+    },
+    "extensionsUsed": [
+      "KHR_animation_pointer",
+      "KHR_lights_punctual",
+      "KHR_node_visibility"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
+    "image": "/images/LightVisiblitytestforKHR_node_visibility.webp",
+    "thumbnail": "/images/LightVisiblitytestforKHR_node_visibility.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": ", Animated",
+    "license": [
+      {
+        "license": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Aaron Franke"
+    ],
+    "isOnRenderFidelity": false
   },
   "LampwithPunctualLights": {
     "name": "LampwithPunctualLights",
