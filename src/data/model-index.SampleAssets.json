@@ -1996,7 +1996,7 @@
   "Corset": {
     "name": "Corset",
     "label": "Corset",
-    "description": " ",
+    "description": "A female fabric mannequin with a corset and a collar.",
     "tags": [
       "Testing",
       "Draco"
@@ -4666,7 +4666,7 @@
   "StainedGlassLamp": {
     "name": "StainedGlassLamp",
     "label": "Stained Glass Lamp",
-    "description": " ",
+    "description": "A real product, a Tiffany-style stained glass table lamp sold on the Wayfair website.",
     "tags": [
       "Showcase",
       "Extension",
