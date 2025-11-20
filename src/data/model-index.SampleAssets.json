@@ -3660,6 +3660,43 @@
     ],
     "isOnRenderFidelity": true
   },
+  "NodePerformanceTest": {
+    "name": "NodePerformanceTest",
+    "label": "NodePerformanceTest",
+    "description": "Node, mesh, primitive and texture count performance test",
+    "tags": [
+      "Testing",
+      "Lights"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodePerformanceTest/glTF/NodePerformanceTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodePerformanceTest/glTF-Binary/NodePerformanceTest.glb"
+    },
+    "extensionsUsed": [
+      "KHR_lights_punctual"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodePerformanceTest/glTF-Binary/NodePerformanceTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodePerformanceTest/glTF/NodePerformanceTest.gltf",
+    "image": "/images/NodePerformanceTest.webp",
+    "thumbnail": "/images/NodePerformanceTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "",
+    "license": [
+      {
+        "license": "Public Domain / CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Jon Aspeheim"
+    ],
+    "isOnRenderFidelity": false
+  },
   "Normal-TangentMirrorTest": {
     "name": "Normal-TangentMirrorTest",
     "label": "Normal-Tangent Mirror Test",
@@ -3762,6 +3799,38 @@
       "Khronos"
     ],
     "isOnRenderFidelity": true
+  },
+  "PlaysetLightTest": {
+    "name": "PlaysetLightTest",
+    "label": "PlaysetLightTest",
+    "description": "A 3D scene with IKEA assets",
+    "tags": [
+      "Lights",
+      "Emissive"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/PlaysetLightTest/glTF/PlaysetLightTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/PlaysetLightTest/glTF-Binary/PlaysetLightTest.glb"
+    },
+    "extensionsUsed": [
+      "KHR_lights_punctual",
+      "KHR_materials_emissive_strength"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/PlaysetLightTest/glTF-Binary/PlaysetLightTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/PlaysetLightTest/glTF/PlaysetLightTest.gltf",
+    "image": "/images/PlaysetLightTest.webp",
+    "thumbnail": "/images/PlaysetLightTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "",
+    "license": [],
+    "authors": [
+      "Inter IKEA Systems B.V."
+    ],
+    "isOnRenderFidelity": false
   },
   "PointLightIntensityTest": {
     "name": "PointLightIntensityTest",
