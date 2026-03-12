@@ -34,12 +34,12 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -74,7 +74,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -278,7 +278,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -402,7 +402,7 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -514,7 +514,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -689,7 +689,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -757,7 +757,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -792,7 +792,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -919,7 +919,8 @@
       "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Binary/BrainStem.glb",
       "glTF-Draco": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Draco/BrainStem.gltf",
       "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Embedded/BrainStem.gltf",
-      "glTF-Meshopt": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Meshopt/BrainStem.gltf"
+      "glTF-Meshopt": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Meshopt/BrainStem.gltf",
+      "glTF-Meshopt-EXT": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Meshopt-EXT/BrainStem.gltf"
     },
     "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF-Binary/BrainStem.glb",
     "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BrainStem/glTF/BrainStem.gltf",
@@ -1015,7 +1016,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1052,7 +1053,7 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1167,7 +1168,7 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1213,7 +1214,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1291,7 +1292,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1370,12 +1371,12 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2060,9 +2061,9 @@
     ],
     "isOnRenderFidelity": true
   },
-  "CubeVisiblitytestforKHR_node_visibility": {
-    "name": "CubeVisiblitytestforKHR_node_visibility",
-    "label": "Cube Visiblity test for KHR_node_visibility",
+  "CubeVisibility": {
+    "name": "CubeVisibility",
+    "label": "CubeVisibility",
     "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
     "tags": [
       "Testing",
@@ -2079,8 +2080,8 @@
     ],
     "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CubeVisibility/glTF-Binary/CubeVisibility.glb",
     "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CubeVisibility/glTF/CubeVisibility.gltf",
-    "image": "/images/CubeVisiblitytestforKHR_node_visibility.webp",
-    "thumbnail": "/images/CubeVisiblitytestforKHR_node_visibility.webp",
+    "image": "/images/CubeVisibility.webp",
+    "thumbnail": "/images/CubeVisibility.webp",
     "camera": {
       "yaw": 0,
       "pitch": 0,
@@ -2127,12 +2128,12 @@
       {
         "license": "CC-BY",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY-NC",
         "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
-        "icon": "https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc.png"
+        "icon": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2174,7 +2175,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC0",
@@ -2259,7 +2260,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2340,7 +2341,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2361,7 +2362,8 @@
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/DragonAttenuation/glTF/DragonAttenuation.gltf",
       "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/DragonAttenuation/glTF-Binary/DragonAttenuation.glb",
-      "glTF-Meshopt": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/DragonAttenuation/glTF-Meshopt/DragonAttenuation.gltf"
+      "glTF-Meshopt": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/DragonAttenuation/glTF-Meshopt/DragonAttenuation.gltf",
+      "glTF-Meshopt-EXT": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/DragonAttenuation/glTF-Meshopt-EXT/DragonAttenuation.gltf"
     },
     "extensionsUsed": [
       "KHR_materials_transmission",
@@ -2495,7 +2497,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2599,12 +2601,12 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2651,7 +2653,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2688,7 +2690,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2728,7 +2730,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2888,12 +2890,12 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -2976,7 +2978,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3111,7 +3113,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3162,9 +3164,9 @@
     ],
     "isOnRenderFidelity": true
   },
-  "LightVisiblitytestforKHR_node_visibility": {
-    "name": "LightVisiblitytestforKHR_node_visibility",
-    "label": "Light Visiblity test for KHR_node_visibility",
+  "LightVisibility": {
+    "name": "LightVisibility",
+    "label": "LightVisibility",
     "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
     "tags": [
       "Testing",
@@ -3183,8 +3185,8 @@
     ],
     "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb",
     "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
-    "image": "/images/LightVisiblitytestforKHR_node_visibility.webp",
-    "thumbnail": "/images/LightVisiblitytestforKHR_node_visibility.webp",
+    "image": "/images/LightVisibility.webp",
+    "thumbnail": "/images/LightVisibility.webp",
     "camera": {
       "yaw": 0,
       "pitch": 0,
@@ -3235,7 +3237,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3271,12 +3273,12 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3315,7 +3317,7 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3356,6 +3358,44 @@
     ],
     "isOnRenderFidelity": false
   },
+  "MeshoptCubeTest": {
+    "name": "MeshoptCubeTest",
+    "label": "Meshopt Cube Test",
+    "description": "This model tests the KHR_meshopt_compression extension.",
+    "tags": [
+      "Extension",
+      "Testing",
+      "Animation"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshoptCubeTest/glTF/MeshoptCubeTest.gltf",
+      "glTF-Meshopt": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshoptCubeTest/glTF-Meshopt/MeshoptCubeTest.gltf"
+    },
+    "extensionsUsed": [
+      "KHR_mesh_quantization",
+      "KHR_meshopt_compression"
+    ],
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshoptCubeTest/glTF/MeshoptCubeTest.gltf",
+    "image": "/images/MeshoptCubeTest.webp",
+    "thumbnail": "/images/MeshoptCubeTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": ", Animated",
+    "license": [
+      {
+        "license": "CC0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Arseny Kapoulkine"
+    ],
+    "isOnRenderFidelity": false
+  },
   "Metal-RoughSpheres": {
     "name": "Metal-RoughSpheres",
     "label": "Metal-Rough Spheres",
@@ -3383,7 +3423,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3460,12 +3500,12 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3502,7 +3542,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3544,12 +3584,12 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3585,7 +3625,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3652,7 +3692,7 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3723,7 +3763,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3792,7 +3832,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3902,7 +3942,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -3951,7 +3991,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4018,7 +4058,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4055,7 +4095,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4092,7 +4132,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4338,7 +4378,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
         "license": "CC0",
@@ -4550,7 +4590,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4621,7 +4661,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4699,7 +4739,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4771,7 +4811,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4817,7 +4857,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -4987,7 +5027,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -5029,7 +5069,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -5203,7 +5243,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -5453,7 +5493,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -5488,7 +5528,7 @@
       {
         "license": "CC-BY 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -5592,7 +5632,7 @@
       {
         "license": "CC-BY International 4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
