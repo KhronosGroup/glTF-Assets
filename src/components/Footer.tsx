@@ -4,8 +4,6 @@ import React from 'react';
 import { Typography, Box, Link } from "@mui/material";
 import { basePath } from '@/lib/paths';
 
-export const currentYear = new Date().getFullYear()
-
 export default function Footer() {  
 
     const imageSrc = encodeURI(`${basePath}/logos/khronos/Khronos(r) Family_June18/Khronos Tagline/Khronos Tagline for web/RGB inverted/Khronos_Tagline_Inverted_June18.svg`)
@@ -36,7 +34,7 @@ export default function Footer() {
         <Box display='flex' pl={{xs:2, sm:3}} pr={{xs:2, sm:3}} style={{width: "100%", maxWidth: "1280px", margin: 'auto', justifyContent: 'space-between', flexWrap: 'wrap', background:bgColor}}>
           <Box pt={1} pb={1}>
             <Typography color={fontColor} pb={1} fontSize={"12px"}>
-              Copyright {currentYear} - The Khronos® Group Inc.  All rights reserved.
+              Copyright {new Date().getFullYear()} - The Khronos® Group Inc.  All rights reserved.
             </Typography>
             <Typography color={fontColor} fontSize={"12px"}>
               Khronos® is a registered trademark, and glTF™ and 3D Commerce™ are trademarks of The Khronos Group Inc.  All other product names, trademarks, and/or company names are used solely for identification and belong to their respective owners.
