@@ -5429,6 +5429,46 @@
     ],
     "isOnRenderFidelity": true
   },
+  "USDShaderBallforglTF": {
+    "name": "USDShaderBallforglTF",
+    "label": "USD Shader Ball for glTF",
+    "description": "USD Shader Ball converted for glTF",
+    "tags": [
+      "Showcase",
+      "Extension",
+      "Transmission",
+      "Volume"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF/USDShaderBallForGltf.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_materials_volume"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF/USDShaderBallForGltf.gltf",
+    "image": "/images/USDShaderBallforglTF.webp",
+    "thumbnail": "/images/USDShaderBallforglTF.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "",
+    "license": [
+      {
+        "license": "CC-BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Geometry and textures: Chris Rydalch; original specification and validation: André Mazzone; original scene, inspiration and consultation: Thomas Anagnostou; glTF conversion: Eric Chadwick"
+    ],
+    "isOnRenderFidelity": false
+  },
   "Unicode%E2%9D%A4%E2%99%BBTest": {
     "name": "Unicode❤♻Test",
     "label": "Unicode❤♻Test",
