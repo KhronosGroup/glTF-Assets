@@ -184,6 +184,7 @@ let active_animations = [0] as number[];
 const active_extensions = new Map<string, boolean>(supported_extensions);
 let active_variant = "glTF-Binary";
 let change_variant = false;
+let active_materialVariant = "default";
 let current_update_func_id = 0;
 let webgl2_wireframe_extensions : WEBGL_polygon_mode | null = null;
 
@@ -211,6 +212,8 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
   const [animations, setAnimations] = React.useState<Array<string>>([]);
   const [selectedAnimation, setSelectedAnimation] = React.useState("");
   const [modelVariants, setModelVariants] = React.useState(src.endsWith(".glb") ? 'glTF-Binary' : 'glTF');
+  const [materialVariants, setMaterialVariants] = React.useState<Array<string>>([]);
+  const [selectedMaterialVariant, setSelectedMaterialVariant] = React.useState("default");
   const [isModelLoaded, setIsModelLoaded] = React.useState(false);
   const [hasWireframeExtensions, setHasWireframeExtension] = React.useState(false);
 
@@ -300,6 +303,15 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
       const resourceLoader = view.createResourceLoader();
       state.gltf = await resourceLoader.loadGltf(src);
+
+      // KHR_materials_variants: names come from the loaded glTF, "default" means the base materials.
+      const refreshMaterialVariants = (gltf: typeof state.gltf) => {
+        const names: string[] = gltf.extensions?.KHR_materials_variants?.variants?.map((v: { name: string }) => v.name) ?? [];
+        active_materialVariant = "default";
+        setMaterialVariants(names);
+        setSelectedMaterialVariant("default");
+      };
+      refreshMaterialVariants(state.gltf);
 
       const animation_names = [] as string[];
       for(const animation of state.gltf.animations)
@@ -433,7 +445,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
         if(change_variant)
         {
           resourceLoader.loadGltf(variants[active_variant])
-            .then((res: typeof state.gltf) => { console.log("Reload gltf"); state.gltf = res;})
+            .then((res: typeof state.gltf) => { console.log("Reload gltf"); state.gltf = res; refreshMaterialVariants(res);})
             .then(() => {return customGatherStatistics(state, view, variants[active_variant], active_variant)})
             .then((res: Stats) => { statsCallback(res); setIsModelLoaded(true);});          
           change_variant = false;
@@ -455,6 +467,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
           state.renderingParameters.toneMap = defaultToneMap;
           state.renderingParameters.renderEnvironmentMap = defaultRenderEnvironmentMap;
         }
+        state.variant = active_materialVariant;
         state.animationIndices = active_animations;
         active_extensions.forEach((value, key) => {
           if (key in state.renderingParameters.enabledExtensions) {
@@ -657,6 +670,27 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
                     {debugOptions.filter(opt => opt !== 'Wireframe' || (opt === 'Wireframe' && hasWireframeExtensions)).map((opt) => (
                       <MenuItem key={opt} value={opt}>
                         {opt}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              </Box>
+              <Box sx={{display: materialVariants.length>0? 'block':'none', width: '100%', mt: 2}}>
+                <FormControl fullWidth size="small">
+                  <InputLabel id="material-variants-label">Material Variants</InputLabel>
+                  <Select
+                    labelId="material-variants-label"
+                    value={selectedMaterialVariant}
+                    label="Material Variants"
+                    onChange={(e) => { active_materialVariant = e.target.value; setSelectedMaterialVariant(e.target.value); }}
+                    MenuProps={{
+                      disableScrollLock: true, // disables body padding-right
+                    }}
+                  >
+                    <MenuItem value="default">Default</MenuItem>
+                    {materialVariants.map((name) => (
+                      <MenuItem key={name} value={name}>
+                        {name}
                       </MenuItem>
                     ))}
                   </Select>
