@@ -997,44 +997,6 @@
     ],
     "isOnRenderFidelity": false
   },
-  "CarbonFibreBall": {
-    "name": "CarbonFibreBall",
-    "folder": "CarbonFibre",
-    "label": "Carbon Fibre Ball",
-    "description": "Example of anisotropy applied to a ball with a simulated carbon fiber surface.",
-    "tags": [
-      "Extension",
-      "Anisotropy"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF/CarbonFibre.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF-Binary/CarbonFibre.glb"
-    },
-    "extensionsUsed": [
-      "KHR_materials_anisotropy"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF-Binary/CarbonFibre.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF/CarbonFibre.gltf",
-    "image": "/images/CarbonFibreBall.webp",
-    "thumbnail": "/images/CarbonFibreBall.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[3d, ball, sphere, black, texture, pattern, surface, design, model, object, render, visualization, graphics, computer, art, illustration, digital, image, visual]",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Eric Chadwick"
-    ],
-    "isOnRenderFidelity": false
-  },
   "CarConcept": {
     "name": "CarConcept",
     "folder": "CarConcept",
@@ -1077,6 +1039,44 @@
       "distance": 0
     },
     "keywords": "[car, red, vehicle, transportation, sports car, luxury, high-performance, sleek, fast, powerful, engine, wheels, interior, exterior, design, style, speed, acceleration, handling, braking]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Eric Chadwick"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "CarbonFibreBall": {
+    "name": "CarbonFibreBall",
+    "folder": "CarbonFibre",
+    "label": "Carbon Fibre Ball",
+    "description": "Example of anisotropy applied to a ball with a simulated carbon fiber surface.",
+    "tags": [
+      "Extension",
+      "Anisotropy"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF/CarbonFibre.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF-Binary/CarbonFibre.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_anisotropy"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF-Binary/CarbonFibre.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/CarbonFibre/glTF/CarbonFibre.gltf",
+    "image": "/images/CarbonFibreBall.webp",
+    "thumbnail": "/images/CarbonFibreBall.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[3d, ball, sphere, black, texture, pattern, surface, design, model, object, render, visualization, graphics, computer, art, illustration, digital, image, visual]",
     "license": [
       {
         "license": "CC-BY-4.0",
@@ -2857,42 +2857,6 @@
     ],
     "isOnRenderFidelity": true
   },
-  "InterpolationTest": {
-    "name": "InterpolationTest",
-    "folder": "InterpolationTest",
-    "label": "Interpolation Test",
-    "description": "A sample with three different animation interpolations",
-    "tags": [
-      "Testing",
-      "Animation",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
-    "image": "/images/InterpolationTest.webp",
-    "thumbnail": "/images/InterpolationTest.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[linear, step, cubicspline, 3d, rendering, animation, graphics, design, art, illustration, visualization, modeling, simulation, physics, engineering, architecture, computer-aided, software, technology, innovation], Animated",
-    "license": [
-      {
-        "license": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Khronos"
-    ],
-    "isOnRenderFidelity": true
-  },
   "IORTestGrid": {
     "name": "IORTestGrid",
     "folder": "IORTestGrid",
@@ -2936,6 +2900,42 @@
       "Eric Chadwick"
     ],
     "isOnRenderFidelity": false
+  },
+  "InterpolationTest": {
+    "name": "InterpolationTest",
+    "folder": "InterpolationTest",
+    "label": "Interpolation Test",
+    "description": "A sample with three different animation interpolations",
+    "tags": [
+      "Testing",
+      "Animation",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF-Binary/InterpolationTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/InterpolationTest/glTF/InterpolationTest.gltf",
+    "image": "/images/InterpolationTest.webp",
+    "thumbnail": "/images/InterpolationTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[linear, step, cubicspline, 3d, rendering, animation, graphics, design, art, illustration, visualization, modeling, simulation, physics, engineering, architecture, computer-aided, software, technology, innovation], Animated",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Khronos"
+    ],
+    "isOnRenderFidelity": true
   },
   "IridescenceAbalone": {
     "name": "IridescenceAbalone",
@@ -3247,47 +3247,6 @@
     ],
     "isOnRenderFidelity": true
   },
-  "LampwithPunctualLights": {
-    "name": "LampwithPunctualLights",
-    "folder": "LightsPunctualLamp",
-    "label": "Lamp with Punctual Lights",
-    "description": "Lamp using punctual lights.",
-    "tags": [
-      "Testing",
-      "Extension",
-      "Transmission",
-      "Lights"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb"
-    },
-    "extensionsUsed": [
-      "KHR_materials_transmission",
-      "KHR_lights_punctual"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
-    "image": "/images/LampwithPunctualLights.webp",
-    "thumbnail": "/images/LampwithPunctualLights.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[light, lamp, table, desk, floor, standing, hanging, pendant, chandelier, sconce, wall, ceiling, fixture, lighting, home, decor, interior, design, furniture]",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "DGG"
-    ],
-    "isOnRenderFidelity": true
-  },
   "LightVisibility": {
     "name": "LightVisibility",
     "folder": "LightVisibility",
@@ -3329,6 +3288,47 @@
       "Aaron Franke"
     ],
     "isOnRenderFidelity": false
+  },
+  "LampwithPunctualLights": {
+    "name": "LampwithPunctualLights",
+    "folder": "LightsPunctualLamp",
+    "label": "Lamp with Punctual Lights",
+    "description": "Lamp using punctual lights.",
+    "tags": [
+      "Testing",
+      "Extension",
+      "Transmission",
+      "Lights"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_lights_punctual"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
+    "image": "/images/LampwithPunctualLights.webp",
+    "thumbnail": "/images/LampwithPunctualLights.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[light, lamp, table, desk, floor, standing, hanging, pendant, chandelier, sconce, wall, ceiling, fixture, lighting, home, decor, interior, design, furniture]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "DGG"
+    ],
+    "isOnRenderFidelity": true
   },
   "MandarinOrange": {
     "name": "MandarinOrange",
@@ -3412,6 +3412,40 @@
     ],
     "isOnRenderFidelity": true
   },
+  "MeshPrimitiveModes": {
+    "name": "MeshPrimitiveModes",
+    "folder": "MeshPrimitiveModes",
+    "label": "Mesh Primitive Modes",
+    "description": "An example that shows rendering modes that are supported for mesh primitives in glTF.",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf",
+      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshPrimitiveModes/glTF-Embedded/MeshPrimitiveModes.gltf"
+    },
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf",
+    "image": "/images/MeshPrimitiveModes.webp",
+    "thumbnail": "/images/MeshPrimitiveModes.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[hexagon, shape, design, pattern, geometry, math, symmetry, art, visual, representation, illustration, graphic, element, structure, composition, arrangement, layout, configuration, organization, alignment]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Marco Hutter (https://github.com/javagl/)"
+    ],
+    "isOnRenderFidelity": false
+  },
   "MeshoptCubeTest": {
     "name": "MeshoptCubeTest",
     "folder": "MeshoptCubeTest",
@@ -3448,40 +3482,6 @@
     ],
     "authors": [
       "Arseny Kapoulkine"
-    ],
-    "isOnRenderFidelity": false
-  },
-  "MeshPrimitiveModes": {
-    "name": "MeshPrimitiveModes",
-    "folder": "MeshPrimitiveModes",
-    "label": "Mesh Primitive Modes",
-    "description": "An example that shows rendering modes that are supported for mesh primitives in glTF.",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf",
-      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshPrimitiveModes/glTF-Embedded/MeshPrimitiveModes.gltf"
-    },
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MeshPrimitiveModes/glTF/MeshPrimitiveModes.gltf",
-    "image": "/images/MeshPrimitiveModes.webp",
-    "thumbnail": "/images/MeshPrimitiveModes.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[hexagon, shape, design, pattern, geometry, math, symmetry, art, visual, representation, illustration, graphic, element, structure, composition, arrangement, layout, configuration, organization, alignment]",
-    "license": [
-      {
-        "license": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Marco Hutter (https://github.com/javagl/)"
     ],
     "isOnRenderFidelity": false
   },
@@ -3692,40 +3692,6 @@
     ],
     "isOnRenderFidelity": true
   },
-  "MultipleScenes": {
-    "name": "MultipleScenes",
-    "folder": "MultipleScenes",
-    "label": "Multiple Scenes",
-    "description": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh.",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
-      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF-Embedded/MultipleScenes.gltf"
-    },
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
-    "image": "/images/MultipleScenes.webp",
-    "thumbnail": "/images/MultipleScenes.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[gray, square, background, solid, color, design, simple, minimal, aesthetic, clean, modern, neutral, tone, palette, monochromatic, texture, flat, visual, element]",
-    "license": [
-      {
-        "license": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Public"
-    ],
-    "isOnRenderFidelity": false
-  },
   "MultiUVTest": {
     "name": "MultiUVTest",
     "folder": "MultiUVTest",
@@ -3761,6 +3727,40 @@
       "Hilo 3D"
     ],
     "isOnRenderFidelity": true
+  },
+  "MultipleScenes": {
+    "name": "MultipleScenes",
+    "folder": "MultipleScenes",
+    "label": "Multiple Scenes",
+    "description": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh.",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
+      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF-Embedded/MultipleScenes.gltf"
+    },
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MultipleScenes/glTF/MultipleScenes.gltf",
+    "image": "/images/MultipleScenes.webp",
+    "thumbnail": "/images/MultipleScenes.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[gray, square, background, solid, color, design, simple, minimal, aesthetic, clean, modern, neutral, tone, palette, monochromatic, texture, flat, visual, element]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Public"
+    ],
+    "isOnRenderFidelity": false
   },
   "NegativeScaleTest": {
     "name": "NegativeScaleTest",
@@ -5664,6 +5664,47 @@
     ],
     "isOnRenderFidelity": true
   },
+  "USDShaderBallforglTF": {
+    "name": "USDShaderBallforglTF",
+    "folder": "USDShaderBallForGltf",
+    "label": "USD Shader Ball for glTF",
+    "description": "USD Shader Ball converted for glTF",
+    "tags": [
+      "Showcase",
+      "Extension",
+      "Transmission",
+      "Volume"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF/USDShaderBallForGltf.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_materials_volume"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF/USDShaderBallForGltf.gltf",
+    "image": "/images/USDShaderBallforglTF.webp",
+    "thumbnail": "/images/USDShaderBallforglTF.webp",
+    "camera": {
+      "yaw": -45,
+      "pitch": 20,
+      "distance": 0
+    },
+    "keywords": "[Reflective Sphere, Metallic Finish, Pedestal Base, Futuristic Sculpture, Chrome Material, Minimalist Form, Glossy Surface, Glass Reflection, Abstract Artwork, Modern Design, Shiny Texture, Circular Shape, Mounting Structure, Industrial Aesthetic, Three-Dimensional Object, Art Installation, Sleek Appearance, Contemporary Piece, Digital Rendering, High-Definition Model]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Geometry and textures: Chris Rydalch; original specification and validation: André Mazzone; original scene, inspiration and consultation: Thomas Anagnostou; glTF conversion: Eric Chadwick"
+    ],
+    "isOnRenderFidelity": false
+  },
   "Unicode%E2%9D%A4%E2%99%BBTest": {
     "name": "Unicode❤♻Test",
     "folder": "Unicode❤♻Test",
@@ -5737,47 +5778,6 @@
       "Ed Mackey"
     ],
     "isOnRenderFidelity": true
-  },
-  "USDShaderBallforglTF": {
-    "name": "USDShaderBallforglTF",
-    "folder": "USDShaderBallForGltf",
-    "label": "USD Shader Ball for glTF",
-    "description": "USD Shader Ball converted for glTF",
-    "tags": [
-      "Showcase",
-      "Extension",
-      "Transmission",
-      "Volume"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF/USDShaderBallForGltf.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb"
-    },
-    "extensionsUsed": [
-      "KHR_materials_transmission",
-      "KHR_materials_volume"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF-Binary/USDShaderBallForGltf.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/USDShaderBallForGltf/glTF/USDShaderBallForGltf.gltf",
-    "image": "/images/USDShaderBallforglTF.webp",
-    "thumbnail": "/images/USDShaderBallforglTF.webp",
-    "camera": {
-      "yaw": -45,
-      "pitch": 20,
-      "distance": 0
-    },
-    "keywords": "[Reflective Sphere, Metallic Finish, Pedestal Base, Futuristic Sculpture, Chrome Material, Minimalist Form, Glossy Surface, Glass Reflection, Abstract Artwork, Modern Design, Shiny Texture, Circular Shape, Mounting Structure, Industrial Aesthetic, Three-Dimensional Object, Art Installation, Sleek Appearance, Contemporary Piece, Digital Rendering, High-Definition Model]",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Geometry and textures: Chris Rydalch; original specification and validation: André Mazzone; original scene, inspiration and consultation: Thomas Anagnostou; glTF conversion: Eric Chadwick"
-    ],
-    "isOnRenderFidelity": false
   },
   "VertexColorTest": {
     "name": "VertexColorTest",
