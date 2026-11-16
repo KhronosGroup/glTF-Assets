@@ -17,14 +17,14 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@khronosgroup/gltf-viewer": "./glTF-Sample-Renderer",
-    "@mui/icons-material": "^9.4.0",
-    "@mui/material": "^9.4.0",
-    "@mui/material-nextjs": "^9.4.0",
+    "@mui/icons-material": "^9.5.0",
+    "@mui/material": "^9.5.0",
+    "@mui/material-nextjs": "^9.5.0",
     "@types/normalize-wheel": "^1.0.4",
     "fuse.js": "^7.5.0",
     "next": "^16.4.5",
     "normalize-wheel": "^1.0.1",
-    "puppeteer": "^25.12.0",
+    "puppeteer": "^25.16.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "sharp": "^0.35.5"
@@ -33,9 +33,17 @@
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "eslint": "^10.12.0",
-    "eslint-config-next": "^16.3.8",
+    "eslint": "^10.14.0",
+    "eslint-config-next": "^16.4.5",
     "marked": "^18.1.3",
     "typescript": "^7.0.2"
+  },
+  "overrides": {
+    "eslint": {
+      "minimatch": "^11.0.1"
+    },
+    "typescript-eslint": {
+      "minimatch": "^11.0.1"
+    }
   }
 }
