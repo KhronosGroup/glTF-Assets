@@ -8,9 +8,7 @@ import {
     FormControl,
     IconButton,
     InputAdornment,
-    TextField,
-    createStyles,
-    makeStyles
+    TextField
   } from "@mui/material";
 
 export default function SearchComponent({searchValueChange} : {searchValueChange: (input: string) => void}) {  
