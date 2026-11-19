@@ -40,7 +40,7 @@ const keep_dict = {
 }
 
 const ext_to_label = {
-  "KHR_materials_transmission":  "Transmission",
+  "KHR_materials_transmission": "Transmission",
   "KHR_materials_volume": "Volume",
   "KHR_materials_variants": "Variants",
   "KHR_materials_clearcoat": "Clearcoat",
