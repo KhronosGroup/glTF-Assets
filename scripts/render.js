@@ -6,7 +6,7 @@ const ModelMap = require('./../src/data/model-index.SampleAssets.json'); // Adju
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: "new", // use "new" headless mode
+    headless: true, // Uses the "new" headless mode
     args: ['--disable-web-security', '--allow-file-access-from-files', '--enable-webgl', '--ignore-gpu-blacklist', '--use-gl=angle', '--no-sandbox', '--disable-setuid-sandbox'],
   });
 
