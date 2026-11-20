@@ -2123,6 +2123,7 @@
     "tags": [
       "Testing",
       "Animation Pointer",
+      "Node Visibility",
       "Animation"
     ],
     "variants": {
@@ -3256,6 +3257,7 @@
       "Testing",
       "Animation Pointer",
       "Lights",
+      "Node Visibility",
       "Animation"
     ],
     "variants": {
@@ -3454,6 +3456,8 @@
     "tags": [
       "Extension",
       "Testing",
+      "Quantization",
+      "Meshopt",
       "Animation"
     ],
     "variants": {
@@ -3841,7 +3845,8 @@
     "label": "NodeVisibilityTest",
     "description": "A test for the KHR_node_visibility extension",
     "tags": [
-      "Testing"
+      "Testing",
+      "Node Visibility"
     ],
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodeVisibilityTest/glTF/NodeVisibilityTest.gltf",
@@ -4350,7 +4355,7 @@
     "description": "Human skull model with subsurface scattering.",
     "tags": [
       "Testing",
-      "XMP JSON",
+      "XMP JSON LD",
       "Transmission",
       "Volume",
       "Dispersion",
@@ -4608,7 +4613,7 @@
     "tags": [
       "Extension",
       "Testing",
-      "Mesh Instancing"
+      "Mesh GPU Instancing"
     ],
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/SimpleInstancing/glTF/SimpleInstancing.gltf",
@@ -5400,6 +5405,7 @@
     "tags": [
       "Extension",
       "Specular",
+      "Retroreflection",
       "Lights",
       "Unlit"
     ],
@@ -5941,7 +5947,7 @@
     "tags": [
       "Extension",
       "Testing",
-      "XMP JSON"
+      "XMP JSON LD"
     ],
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/XmpMetadataRoundedCube/glTF/XmpMetadataRoundedCube.gltf",
