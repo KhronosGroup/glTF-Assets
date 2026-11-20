@@ -96,7 +96,7 @@ export default function ModelPage({name, label, image, tags, description, modelU
             <Link href={downloadUrl} color="#0366d6" underline='hover' rel="noopener" sx={{fontWeight:'bold', display:'flex', alignItems:'center'}}>Download GLB<FileDownloadIcon fontSize='small' sx={{ml: 0.5}}/></Link>
           </Box>}
           <Box sx={{mr: 3}}>
-            <Link onClick={onShare} href="#" color="#0366d6" underline='hover' target="_blank" rel="noopener" sx={{fontWeight:'bold', display:'flex', alignItems:'center'}} aria-label='Share this link'>Share <ShareIcon fontSize='small' sx={{ml: 0.5}}/></Link>
+            <Link onClick={onShare} href="#" color="#0366d6" underline='hover' sx={{fontWeight:'bold', display:'flex', alignItems:'center'}} aria-label='Share this link'>Share <ShareIcon fontSize='small' sx={{ml: 0.5}}/></Link>
           </Box>
           {downloadUrl && <Box sx={{mr: 3}}>
             <ExternalLink url={`https://github.khronos.org/glTF-Sample-Viewer-Release/?model=${downloadUrl}`}>View on Sample Viewer</ExternalLink>

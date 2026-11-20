@@ -23,6 +23,14 @@ const tags = tagsFile.tags
   .sort((a, b) => b.name.length - a.name.length)
   .sort((a,b) => a.selected && b.selected? 0 : a.selected? -1 : b.selected? 1 : 0);
 
+const options = {
+  includeScore: true,
+  shouldSort: true,
+  ignoreLocation: true,
+  threshold: 0.25,
+  // Search in `description`, `name` and `keywords`
+  keys: ['description', 'name', 'keywords'],
+}
 export default function LandingPage({models}: LandingPageProps) {
 
   const scrollWrapperRef = React.useRef<HTMLDivElement>(null);
@@ -115,14 +123,6 @@ export default function LandingPage({models}: LandingPageProps) {
     </Box>
     )
 
-  const options = {
-    includeScore: true,
-    shouldSort: true,
-    ignoreLocation: true,
-    threshold: 0.25,
-    // Search in `description`, `name` and `keywords`
-    keys: ['description', 'name', 'keywords'],
-  }
   const fuse = new Fuse(Object.values(models), options)
 
   const tagsArray = selectedTags.filter(e => e.selected == true).map(e => e.name);
