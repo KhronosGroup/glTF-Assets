@@ -4297,6 +4297,53 @@
     ],
     "isOnRenderFidelity": true
   },
+  "ScatterAnemone": {
+    "name": "ScatterAnemone",
+    "folder": "ScatterAnemone",
+    "label": "ScatterAnemone",
+    "description": "Animated waving anemone with glowing fish, demonstrating the KHR_materials_scatter extension.",
+    "tags": [
+      "Showcase",
+      "Extension",
+      "Transmission",
+      "Volume",
+      "Texture Transform",
+      "Lights",
+      "Animation"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF/ScatterAnemone.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF-Binary/ScatterAnemone.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_materials_volume",
+      "KHR_texture_transform",
+      "KHR_lights_punctual",
+      "KHR_materials_scatter"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF-Binary/ScatterAnemone.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF/ScatterAnemone.gltf",
+    "image": "/images/ScatterAnemone.webp",
+    "thumbnail": "/images/ScatterAnemone.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": ", Animated",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Eric Chadwick"
+    ],
+    "isOnRenderFidelity": false
+  },
   "ScatterPlant": {
     "name": "ScatterPlant",
     "folder": "ScatterPlant",
@@ -4345,6 +4392,48 @@
     "authors": [
       "Eric Chadwick",
       "Rico Cilliers"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "ScatterTest": {
+    "name": "ScatterTest",
+    "folder": "ScatterTest",
+    "label": "ScatterTest",
+    "description": "Test model for KHR_materials_scatter extension.",
+    "tags": [
+      "Extension",
+      "Testing",
+      "Transmission",
+      "Lights"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF/ScatterTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF-Binary/ScatterTest.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_scatter",
+      "KHR_materials_transmission",
+      "KHR_lights_punctual"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF-Binary/ScatterTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF/ScatterTest.gltf",
+    "image": "/images/ScatterTest.webp",
+    "thumbnail": "/images/ScatterTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Eric Chadwick"
     ],
     "isOnRenderFidelity": false
   },
