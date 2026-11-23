@@ -37,13 +37,5 @@
     "puppeteer": "^25.18.1",
     "sharp": "^0.35.5",
     "typescript": "^7.0.2"
-  },
-  "overrides": {
-    "eslint": {
-      "minimatch": "^11.0.1"
-    },
-    "typescript-eslint": {
-      "minimatch": "^11.0.1"
-    }
   }
 }
