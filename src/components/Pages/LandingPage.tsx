@@ -23,7 +23,7 @@ const tags = tagsFile.tags
   .sort((a, b) => b.name.length - a.name.length)
   .sort((a,b) => a.selected && b.selected? 0 : a.selected? -1 : b.selected? 1 : 0);
 
-const options = {
+const searchOptions = {
   includeScore: true,
   shouldSort: true,
   ignoreLocation: true,
@@ -123,7 +123,7 @@ export default function LandingPage({models}: LandingPageProps) {
     </Box>
     )
 
-  const fuse = new Fuse(Object.values(models), options)
+  const fuse = React.useMemo(() => new Fuse(Object.values(models), searchOptions), [models])
 
   const tagsArray = selectedTags.filter(e => e.selected == true).map(e => e.name);
   const result = ((searchValue === "") ? Object.values(models).map(e => {return {item: e}}) : fuse.search(searchValue)).filter((e,i) => {
