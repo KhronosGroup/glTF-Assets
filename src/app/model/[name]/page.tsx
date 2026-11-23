@@ -76,25 +76,15 @@ export default async function Page({params}: { params: Promise<{ name: string }>
     return b.score - a.score;
   });
 
-  const showcaseModels : Array<ModelType> = [
-    showcaseList[0],
-    showcaseList[1],
-    showcaseList[2]
-  ];
+  const showcaseModels : Array<ModelType> = showcaseList.slice(0, 3);
+  const showcaseNames = new Set(showcaseModels.map(m => m.name));
 
   const relevantList = modelList
-  .filter(m => m.name !== name && m.name !== showcaseList[0].name && m.name !== showcaseList[1].name && m.name !== showcaseList[2].name)
+  .filter(m => m.name !== name && !showcaseNames.has(m.name))
   .sort((a, b) => {
     return b.score - a.score;
   });
-  const suggestedModels : Array<ModelType> = [
-    relevantList[0],
-    relevantList[1],
-    relevantList[2],
-    relevantList[3],
-    relevantList[4],
-    relevantList[5]
-  ];
+  const suggestedModels : Array<ModelType> = relevantList.slice(0, 6);
   
   return (
     <div className={styles.page}>
