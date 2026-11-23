@@ -59,6 +59,7 @@ const ext_to_label = {
   "EXT_texture_webp": "WebP",
   "KHR_materials_dispersion": "Dispersion",
   "KHR_materials_volume_scatter": "Volume Scatter",
+  "KHR_materials_scatter": "Scatter",
   "EXT_mesh_gpu_instancing": "Mesh GPU Instancing",
   "KHR_materials_diffuse_transmission": "Diffuse Transmission",
   "KHR_animation_pointer": "Animation Pointer",  
@@ -236,7 +237,11 @@ for (const tag in ModelTags) {
   TagList.tags.push(tag);
 }
 
-const jsonData = JSON.stringify(OutputModelMap, null, 2); // The `null, 2` makes the output pretty-printed
+const jsonData = JSON.stringify(
+    Object.fromEntries(Object.entries(OutputModelMap).sort()),
+    null,
+    2
+);
 fs.writeFileSync('src/data/model-index.SampleAssets.json', jsonData);
 
 const jsonDataTagList = JSON.stringify(TagList, null, 2); // The `null, 2` makes the output pretty-printed

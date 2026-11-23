@@ -329,6 +329,9 @@
   "RiggedSimple": {
     
   },
+  "ScatterAnemone": {
+    "distance": 10
+  },
   "Skull": {
     "yaw": 45,
     "pitch": 20

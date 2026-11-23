@@ -715,39 +715,6 @@
     ],
     "isOnRenderFidelity": true
   },
-  "BoxWithSpaces": {
-    "name": "BoxWithSpaces",
-    "folder": "Box With Spaces",
-    "label": "Box With Spaces",
-    "description": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf"
-    },
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf",
-    "image": "/images/BoxWithSpaces.webp",
-    "thumbnail": "/images/BoxWithSpaces.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[green, logo, company, name, text, background, color, design, style, font, size, shape, symbol, image, picture, graphic, visual, representation, identity, brand]",
-    "license": [
-      {
-        "license": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Ed Mackey"
-    ],
-    "isOnRenderFidelity": false
-  },
   "BoxAnimated": {
     "name": "BoxAnimated",
     "folder": "BoxAnimated",
@@ -773,42 +740,6 @@
       "distance": 0
     },
     "keywords": "[blue, square, gray, background, image, rectangle, color, shape, design, pattern, texture, light, dark, contrast, visual, element, composition, aesthetic, style], Animated",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Cesium"
-    ],
-    "isOnRenderFidelity": true
-  },
-  "Boxwithinterleavedpositionandnormalattributes": {
-    "name": "Boxwithinterleavedpositionandnormalattributes",
-    "folder": "BoxInterleaved",
-    "label": "Box with interleaved position and normal attributes",
-    "description": "Box example with interleaved position and normal attributes.",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
-      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Embedded/BoxInterleaved.gltf"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
-    "image": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
-    "thumbnail": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[red square, gray background, abstract art, minimalist design, geometric shape, monochromatic color scheme, simple composition, visual balance, artistic expression, creative vision, aesthetic appeal, design principles, color theory, spatial relationships, visual harmony, artistic intent, emotional resonance, viewer engagement, artistic interpretation]",
     "license": [
       {
         "license": "CC-BY-4.0",
@@ -926,6 +857,75 @@
     ],
     "authors": [
       "Marco Hutter (https://github.com/javagl/)"
+    ],
+    "isOnRenderFidelity": true
+  },
+  "BoxWithSpaces": {
+    "name": "BoxWithSpaces",
+    "folder": "Box With Spaces",
+    "label": "Box With Spaces",
+    "description": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf"
+    },
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf",
+    "image": "/images/BoxWithSpaces.webp",
+    "thumbnail": "/images/BoxWithSpaces.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[green, logo, company, name, text, background, color, design, style, font, size, shape, symbol, image, picture, graphic, visual, representation, identity, brand]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Ed Mackey"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "Boxwithinterleavedpositionandnormalattributes": {
+    "name": "Boxwithinterleavedpositionandnormalattributes",
+    "folder": "BoxInterleaved",
+    "label": "Box with interleaved position and normal attributes",
+    "description": "Box example with interleaved position and normal attributes.",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
+      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Embedded/BoxInterleaved.gltf"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
+    "image": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
+    "thumbnail": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[red square, gray background, abstract art, minimalist design, geometric shape, monochromatic color scheme, simple composition, visual balance, artistic expression, creative vision, aesthetic appeal, design principles, color theory, spatial relationships, visual harmony, artistic intent, emotional resonance, viewer engagement, artistic interpretation]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Cesium"
     ],
     "isOnRenderFidelity": true
   },
@@ -1292,45 +1292,6 @@
     ],
     "authors": [
       "Eric Chadwick"
-    ],
-    "isOnRenderFidelity": true
-  },
-  "KHR_materials_clearcoatTest": {
-    "name": "KHR_materials_clearcoatTest",
-    "folder": "ClearCoatTest",
-    "label": "KHR_materials_clearcoat Test",
-    "description": "Tests if the KHR_materials_clearcoat extension is supported properly.",
-    "tags": [
-      "Testing",
-      "Extension",
-      "Clearcoat"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb"
-    },
-    "extensionsUsed": [
-      "KHR_materials_clearcoat"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
-    "image": "/images/KHR_materials_clearcoatTest.webp",
-    "thumbnail": "/images/KHR_materials_clearcoatTest.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[Base layer, Coated, Coating Only, Simple coating, Partial coating, Roughness variations, Base normal map, Shared normal map, Coat normal map]",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Ed Mackey"
     ],
     "isOnRenderFidelity": true
   },
@@ -3204,6 +3165,86 @@
     ],
     "isOnRenderFidelity": true
   },
+  "KHR_materials_clearcoatTest": {
+    "name": "KHR_materials_clearcoatTest",
+    "folder": "ClearCoatTest",
+    "label": "KHR_materials_clearcoat Test",
+    "description": "Tests if the KHR_materials_clearcoat extension is supported properly.",
+    "tags": [
+      "Testing",
+      "Extension",
+      "Clearcoat"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_clearcoat"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
+    "image": "/images/KHR_materials_clearcoatTest.webp",
+    "thumbnail": "/images/KHR_materials_clearcoatTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[Base layer, Coated, Coating Only, Simple coating, Partial coating, Roughness variations, Base normal map, Shared normal map, Coat normal map]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Ed Mackey"
+    ],
+    "isOnRenderFidelity": true
+  },
+  "LampwithPunctualLights": {
+    "name": "LampwithPunctualLights",
+    "folder": "LightsPunctualLamp",
+    "label": "Lamp with Punctual Lights",
+    "description": "Lamp using punctual lights.",
+    "tags": [
+      "Testing",
+      "Extension",
+      "Transmission",
+      "Lights"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_lights_punctual"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
+    "image": "/images/LampwithPunctualLights.webp",
+    "thumbnail": "/images/LampwithPunctualLights.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[light, lamp, table, desk, floor, standing, hanging, pendant, chandelier, sconce, wall, ceiling, fixture, lighting, home, decor, interior, design, furniture]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "DGG"
+    ],
+    "isOnRenderFidelity": true
+  },
   "Lantern": {
     "name": "Lantern",
     "folder": "Lantern",
@@ -3290,47 +3331,6 @@
       "Aaron Franke"
     ],
     "isOnRenderFidelity": false
-  },
-  "LampwithPunctualLights": {
-    "name": "LampwithPunctualLights",
-    "folder": "LightsPunctualLamp",
-    "label": "Lamp with Punctual Lights",
-    "description": "Lamp using punctual lights.",
-    "tags": [
-      "Testing",
-      "Extension",
-      "Transmission",
-      "Lights"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb"
-    },
-    "extensionsUsed": [
-      "KHR_materials_transmission",
-      "KHR_lights_punctual"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF-Binary/LightsPunctualLamp.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightsPunctualLamp/glTF/LightsPunctualLamp.gltf",
-    "image": "/images/LampwithPunctualLights.webp",
-    "thumbnail": "/images/LampwithPunctualLights.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[light, lamp, table, desk, floor, standing, hanging, pendant, chandelier, sconce, wall, ceiling, fixture, lighting, home, decor, interior, design, furniture]",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "DGG"
-    ],
-    "isOnRenderFidelity": true
   },
   "MandarinOrange": {
     "name": "MandarinOrange",
@@ -3489,42 +3489,6 @@
     ],
     "isOnRenderFidelity": false
   },
-  "Metal-RoughSpheres": {
-    "name": "Metal-RoughSpheres",
-    "folder": "MetalRoughSpheres",
-    "label": "Metal-Rough Spheres",
-    "description": "Tests various metal and roughness values (texture mapped).",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb",
-      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF-Embedded/MetalRoughSpheres.gltf"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf",
-    "image": "/images/Metal-RoughSpheres.webp",
-    "thumbnail": "/images/Metal-RoughSpheres.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 2
-    },
-    "keywords": "[metal, non-metal, smooth, rough, spheres, balls, yellow, white, gray, spheres, circles, dots, points, shapes, forms, textures, patterns, colors, gradients, backgrounds]",
-    "license": [
-      {
-        "license": "CC-BY-4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Ed Mackey"
-    ],
-    "isOnRenderFidelity": true
-  },
   "Metal-RoughSpheres(textureless)": {
     "name": "Metal-RoughSpheres(textureless)",
     "folder": "MetalRoughSpheresNoTextures",
@@ -3563,6 +3527,42 @@
     "authors": [
       "Krill Gavrilov",
       "CAD Model generated by Draw Harness script using Open CASCADE Technology"
+    ],
+    "isOnRenderFidelity": true
+  },
+  "Metal-RoughSpheres": {
+    "name": "Metal-RoughSpheres",
+    "folder": "MetalRoughSpheres",
+    "label": "Metal-Rough Spheres",
+    "description": "Tests various metal and roughness values (texture mapped).",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb",
+      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF-Embedded/MetalRoughSpheres.gltf"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF-Binary/MetalRoughSpheres.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf",
+    "image": "/images/Metal-RoughSpheres.webp",
+    "thumbnail": "/images/Metal-RoughSpheres.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 2
+    },
+    "keywords": "[metal, non-metal, smooth, rough, spheres, balls, yellow, white, gray, spheres, circles, dots, points, shapes, forms, textures, patterns, colors, gradients, backgrounds]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Ed Mackey"
     ],
     "isOnRenderFidelity": true
   },
@@ -4309,6 +4309,7 @@
       "Volume",
       "Texture Transform",
       "Lights",
+      "Scatter",
       "Animation"
     ],
     "variants": {
@@ -4329,7 +4330,7 @@
     "camera": {
       "yaw": 0,
       "pitch": 0,
-      "distance": 0
+      "distance": 10
     },
     "keywords": ", Animated",
     "license": [
@@ -4355,6 +4356,7 @@
       "Transmission",
       "Emissive",
       "Lights",
+      "Scatter",
       "Animation"
     ],
     "variants": {
@@ -4403,6 +4405,7 @@
     "tags": [
       "Extension",
       "Testing",
+      "Scatter",
       "Transmission",
       "Lights"
     ],
@@ -4434,53 +4437,6 @@
     ],
     "authors": [
       "Eric Chadwick"
-    ],
-    "isOnRenderFidelity": false
-  },
-  "Skull": {
-    "name": "Skull",
-    "folder": "ScatteringSkull",
-    "label": "Skull",
-    "description": "Human skull model with subsurface scattering.",
-    "tags": [
-      "Testing",
-      "XMP JSON LD",
-      "Transmission",
-      "Volume",
-      "Dispersion",
-      "IOR"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb"
-    },
-    "extensionsUsed": [
-      "KHR_xmp_json_ld",
-      "KHR_materials_transmission",
-      "KHR_materials_volume",
-      "KHR_materials_dispersion",
-      "KHR_materials_scatter",
-      "KHR_materials_ior"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
-    "image": "/images/Skull.webp",
-    "thumbnail": "/images/Skull.webp",
-    "camera": {
-      "yaw": 45,
-      "pitch": 20,
-      "distance": 0
-    },
-    "keywords": "[3D, skull, human, anatomy, medical, education, science, biology, health, medicine, illustration, graphic, design, art, visual, representation, model, skeletal, system, structure]",
-    "license": [
-      {
-        "license": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Vladimir Petkovic"
     ],
     "isOnRenderFidelity": false
   },
@@ -4937,6 +4893,54 @@
     ],
     "authors": [
       "Marco Hutter (https://github.com/javagl/)"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "Skull": {
+    "name": "Skull",
+    "folder": "ScatteringSkull",
+    "label": "Skull",
+    "description": "Human skull model with subsurface scattering.",
+    "tags": [
+      "Testing",
+      "XMP JSON LD",
+      "Transmission",
+      "Volume",
+      "Dispersion",
+      "Scatter",
+      "IOR"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb"
+    },
+    "extensionsUsed": [
+      "KHR_xmp_json_ld",
+      "KHR_materials_transmission",
+      "KHR_materials_volume",
+      "KHR_materials_dispersion",
+      "KHR_materials_scatter",
+      "KHR_materials_ior"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
+    "image": "/images/Skull.webp",
+    "thumbnail": "/images/Skull.webp",
+    "camera": {
+      "yaw": 45,
+      "pitch": 20,
+      "distance": 0
+    },
+    "keywords": "[3D, skull, human, anatomy, medical, education, science, biology, health, medicine, illustration, graphic, design, art, visual, representation, model, skeletal, system, structure]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Vladimir Petkovic"
     ],
     "isOnRenderFidelity": false
   },
