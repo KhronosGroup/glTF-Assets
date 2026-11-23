@@ -197,7 +197,11 @@ interface WEBGL_polygon_mode {
 
 const loadBlob = async (src: string) => {
   return fetch(src)
-  .then(response => response.blob())
+  .then(response => { 
+    if(!response.ok) 
+      throw new Error(`${response.status} ${src}`); 
+    return response.blob(); 
+  })
   .then(blob => { return blob.size; })
   .catch(err => { return 0; });
 }
