@@ -35,8 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/public/libs/libktx.js
-/public/libs/libktx.wasm
-/public/libs/mikktspace.js
-/public/libs/mikktspace_bg.wasm
+/public/libs/*.js
+/public/libs/*.wasm
 /public/model/libs/
+
+/scripts/dist/
+/scripts/libs/

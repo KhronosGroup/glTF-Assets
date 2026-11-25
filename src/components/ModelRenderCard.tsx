@@ -14,9 +14,10 @@ export type ModelCardProps = {
 export default function ModelRenderCard({name, label, thumbnail}: ModelCardProps) {
 
   return (
-      <Box onClick={() => {}} width={'100%'} maxWidth={{xs: '100%', sm: '400px' }} 
+      <Box onClick={() => {}}
             sx={{
                 width: "100%",
+                maxWidth: {xs: '100%', sm: '400px' },
                  margin: '5px',
                  "&:hover": {
                     backgroundColor: 'grey.700',
@@ -24,13 +25,12 @@ export default function ModelRenderCard({name, label, thumbnail}: ModelCardProps
                     borderRadius: "16px"
                 },
             }}>
-          <Box position="relative">
-            <Box width={"100%"} style={{width: "100%"}}>
+          <Box sx={{position: "relative"}}>
+            <Box style={{width: "100%"}}>
               <Link component={NextLink} href={encodeURI(`/model/${name}`)}>
                 <Image
                 width={512}
                 height={512}
-                quality={90}
                 unoptimized
                 style={{ 
                     width: "100%",
@@ -42,15 +42,15 @@ export default function ModelRenderCard({name, label, thumbnail}: ModelCardProps
                     transform: 'scale(1)', // Shrink image when selected
                     transition: 'transform 0.3s ease, border-radius 0.3s ease',
                 }}
-                src={`${basePath}${thumbnail}`}
+                src={`${basePath}${encodeURI(thumbnail)}`}
                 alt={label}  
                 loading="lazy"
                 />
               </Link>
             </Box>
           </Box>
-          <Box display="flex" flexDirection="column" p={0} justifyContent='center'>
-            <Typography fontSize={18} fontWeight={'bold'} textAlign='center' sx={{overflowWrap: "anywhere"}}>{label}</Typography>
+          <Box sx={{display: "flex", flexDirection: "column", p: 0, justifyContent: 'center'}}>
+            <Typography sx={{fontSize: 18, fontWeight: 'bold', textAlign: 'center', overflowWrap: "anywhere"}}>{label}</Typography>
           </Box>          
       </Box>
   );

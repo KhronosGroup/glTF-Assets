@@ -25,11 +25,14 @@
     "Variants",
     "IOR",
     "Dispersion",
-    "XMP JSON",
-    "Volume Scatter",
+    "Node Visibility",
+    "Quantization",
+    "Scatter",
+    "XMP JSON LD",
     "WebP",
-    "Mesh Instancing",
+    "Mesh GPU Instancing",
     "pbrSpecularGlossiness",
+    "Retroreflection",
     "XMP"
   ]
 }

@@ -1,6 +1,7 @@
 {
   "ABeautifulGame": {
     "name": "ABeautifulGame",
+    "folder": "ABeautifulGame",
     "label": "A Beautiful Game",
     "description": "Chess set using transmission and volume.",
     "tags": [
@@ -32,12 +33,12 @@
     "keywords": "[3d, chess, board, game, strategy, pieces, pawns, knights, bishops, rooks, queen, king, checkmate, tactics, moves, squares, strategy, players, opponents]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -50,6 +51,7 @@
   },
   "AlphaBlendModeTest": {
     "name": "AlphaBlendModeTest",
+    "folder": "AlphaBlendModeTest",
     "label": "Alpha Blend Mode Test",
     "description": "Tests alpha modes and settings.",
     "tags": [
@@ -72,7 +74,7 @@
     "keywords": "[marble, bar, graph, data, visualization, statistics, analysis, research, findings, results, trends, patterns, insights, information, presentation, report, study, investigation, exploration, examination]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -84,6 +86,7 @@
   },
   "AnimatedColorsCube": {
     "name": "AnimatedColorsCube",
+    "folder": "AnimatedColorsCube",
     "label": "Animated Colors Cube",
     "description": "This model demonstrates animating a base color with KHR_animation_pointer.",
     "tags": [
@@ -111,7 +114,7 @@
     "keywords": "[red, green, blue, cubes, 3D, rendering, computer-generated, graphics, digital art, colorful, vibrant, geometric, shapes, blocks, stack, pyramid, structure, design, visual, representation], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -123,6 +126,7 @@
   },
   "AnimatedCube": {
     "name": "AnimatedCube",
+    "folder": "AnimatedCube",
     "label": "Animated Cube",
     "description": "Same as 'Cube', but having a linear rotation animation.",
     "tags": [
@@ -144,7 +148,7 @@
     "keywords": "[marble, stone, texture, pattern, design, background, image, photo, picture, visual, graphic, art, style, aesthetic, look, feel, appearance, display, presentation], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -156,6 +160,7 @@
   },
   "AnimatedMorphCube": {
     "name": "AnimatedMorphCube",
+    "folder": "AnimatedMorphCube",
     "label": "Animated Morph Cube",
     "description": "Demonstrates a simple cube with two simple morph targets and an animation that transitions between them both.",
     "tags": [
@@ -181,7 +186,7 @@
     "keywords": "[blank, square, rectangle, gray, color, background, image, design, shape, solid, uniform, tone, monochrome, neutral, beige, texture, pattern, visual, aesthetic], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -193,6 +198,7 @@
   },
   "AnimatedTriangle": {
     "name": "AnimatedTriangle",
+    "folder": "AnimatedTriangle",
     "label": "Animated Triangle",
     "description": "This sample is similar to the Triangle, but the node has a rotation property that is modified with a simple animation",
     "tags": [
@@ -215,7 +221,7 @@
     "keywords": "[triangle, shape, gray, background, design, geometric, abstract, art, pattern, illustration, color, light, dark, shadow, texture, form, composition, visual, aesthetic, minimal], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -227,6 +233,7 @@
   },
   "AnimationPointerUVs": {
     "name": "AnimationPointerUVs",
+    "folder": "AnimationPointerUVs",
     "label": "AnimationPointerUVs",
     "description": "This model tests UV transform animations with KHR_animation_pointer.",
     "tags": [
@@ -276,7 +283,7 @@
     "keywords": "[3D, animation, graphics, rendering, software, design, art, technology, visual, effects, modeling, simulation, gaming, virtual, reality, computer, science, engineering, innovation, creativity], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -288,6 +295,7 @@
   },
   "AnisotropyBarnLamp": {
     "name": "AnisotropyBarnLamp",
+    "folder": "AnisotropyBarnLamp",
     "label": "Anisotropy Barn Lamp",
     "description": "Wayfair AnisotropyBarnLamp model using anisotropy, clearcoat, emissive_strength, transmission, volume, and basisu extensions.",
     "tags": [
@@ -324,7 +332,7 @@
     "keywords": "[lighting, lamp, design, fixture, home, decor, interior, style, modern, contemporary, classic, traditional, vintage, retro, industrial, rustic, minimalist, elegant, sophisticated, refined]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -336,6 +344,7 @@
   },
   "AnisotropyDiscTest": {
     "name": "AnisotropyDiscTest",
+    "folder": "AnisotropyDiscTest",
     "label": "Anisotropy Disc Test",
     "description": "This model tests the texturemap for KHR_materials_anisotropy.",
     "tags": [
@@ -362,7 +371,7 @@
     "keywords": "[roughness, texture, surface, material, rendering, graphics, design, visualization, simulation, physics, lighting, shading, reflection, refraction, transparency, opacity, color, hue, saturation, value]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -374,6 +383,7 @@
   },
   "AnisotropyRotationTest": {
     "name": "AnisotropyRotationTest",
+    "folder": "AnisotropyRotationTest",
     "label": "Anisotropy Rotation Test",
     "description": "This model tests rotational offsets for KHR_materials_anisotropy.",
     "tags": [
@@ -400,7 +410,7 @@
     "keywords": "[3D model, 3D rendering, computer-generated image, digital art, visual effects, graphics, animation, CGI, computer graphics, digital illustration, 3D animation, visual design, computer-aided design, CAD, 3D modeling, 3D visualization, digital visualization, computer-generated imagery, 3D graphics, computer-generated art, digital creativity, 3D design]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -412,6 +422,7 @@
   },
   "AnisotropyStrengthTest": {
     "name": "AnisotropyStrengthTest",
+    "folder": "AnisotropyStrengthTest",
     "label": "Anisotropy Strength Test",
     "description": "This model tests the strength parameter for KHR_materials_anisotropy.",
     "tags": [
@@ -438,7 +449,7 @@
     "keywords": "[3D, spheres, balls, white, gray, texture, roughness, anisotropy, strength, material, rough, smooth, shiny, matte, reflective, diffuse, specular, gloss, metallic, non-metallic]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -450,6 +461,7 @@
   },
   "AntiqueCamera": {
     "name": "AntiqueCamera",
+    "folder": "AntiqueCamera",
     "label": "Antique Camera",
     "description": "Static model of old camera on a tripod. [Issues: non-Khronos mark]",
     "tags": [
@@ -472,7 +484,7 @@
     "keywords": "[old, camera, tripod, vintage, photography, antique, equipment, wooden, metal, lens, viewfinder, shutter, aperture, exposure, film, negative, print, develop, process, darkroom]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -484,6 +496,7 @@
   },
   "AttenuationTest": {
     "name": "AttenuationTest",
+    "folder": "AttenuationTest",
     "label": "Attenuation Test",
     "description": "Tests the interactions between attenuation, thickness, and scale.",
     "tags": [
@@ -512,7 +525,7 @@
     "keywords": "[3d, rendering, modeling, graphics, computer, generated, image, illustration, art, design, visual, representation, digital, creation, visualisation, illustration, picture, depiction, portrayal, visualization, graphical, representation]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -524,6 +537,7 @@
   },
   "Avocado": {
     "name": "Avocado",
+    "folder": "Avocado",
     "label": "Avocado",
     "description": "A natural object created with Core glTF 2.0",
     "tags": [
@@ -549,7 +563,7 @@
     "keywords": "[avocado, fruit, healthy, green, creamy, delicious, nutritious, versatile, dip, spread, toast, salad, smoothie, guacamole, recipe, cooking, food, ingredient, nutrition, wellness]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -561,6 +575,7 @@
   },
   "BarramundiFish": {
     "name": "BarramundiFish",
+    "folder": "BarramundiFish",
     "label": "Barramundi Fish",
     "description": "A fish created with Core glTF 2.0",
     "tags": [
@@ -584,7 +599,7 @@
     "keywords": "[fish, barramundi, barramundi fish, fish species, freshwater fish, saltwater fish, fish habitat, fish diet, fish behavior, fish characteristics, fish conservation, fish management, fish ecology, fish biology, fish physiology, fish anatomy, fish evolution, fish diversity, fish classification, fish identification]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -596,6 +611,7 @@
   },
   "BoomBox": {
     "name": "BoomBox",
+    "folder": "BoomBox",
     "label": "Boom Box",
     "description": "A common object with glowing front panel created with Core glTF 2.0.",
     "tags": [
@@ -619,7 +635,7 @@
     "keywords": "[play, button, radio, music, player, audio, sound, control, interface, user, experience, design, interaction, technology, device, electronic, gadget, entertainment, media]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -631,6 +647,7 @@
   },
   "BoomBoxwithAxes": {
     "name": "BoomBoxwithAxes",
+    "folder": "BoomBoxWithAxes",
     "label": "Boom Box with Axes",
     "description": "Shows X, Y, and Z axis default orientations.",
     "tags": [
@@ -651,7 +668,7 @@
     "keywords": "[radio, player, device, audio, music, sound, speaker, volume, control, buttons, interface, user, friendly, design, technology, innovation, entertainment, portable, compact, sleek]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -663,6 +680,7 @@
   },
   "Box": {
     "name": "Box",
+    "folder": "Box",
     "label": "Box",
     "description": "One mesh and one material. Start with this.",
     "tags": [
@@ -687,7 +705,7 @@
     "keywords": "[red, square, rectangle, shape, color, design, graphic, illustration, art, simple, bold, bright, vibrant, solid, flat, geometric, abstract, minimal, modern]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -697,40 +715,9 @@
     ],
     "isOnRenderFidelity": true
   },
-  "BoxWithSpaces": {
-    "name": "BoxWithSpaces",
-    "label": "Box With Spaces",
-    "description": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf"
-    },
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf",
-    "image": "/images/BoxWithSpaces.webp",
-    "thumbnail": "/images/BoxWithSpaces.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[green, logo, company, name, text, background, color, design, style, font, size, shape, symbol, image, picture, graphic, visual, representation, identity, brand]",
-    "license": [
-      {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Ed Mackey"
-    ],
-    "isOnRenderFidelity": false
-  },
   "BoxAnimated": {
     "name": "BoxAnimated",
+    "folder": "BoxAnimated",
     "label": "Box Animated",
     "description": "Rotation and Translation Animations. Start with this to test animations.",
     "tags": [
@@ -755,42 +742,7 @@
     "keywords": "[blue, square, gray, background, image, rectangle, color, shape, design, pattern, texture, light, dark, contrast, visual, element, composition, aesthetic, style], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Cesium"
-    ],
-    "isOnRenderFidelity": true
-  },
-  "Boxwithinterleavedpositionandnormalattributes": {
-    "name": "Boxwithinterleavedpositionandnormalattributes",
-    "label": "Box with interleaved position and normal attributes",
-    "description": "Box example with interleaved position and normal attributes.",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
-      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Embedded/BoxInterleaved.gltf"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
-    "image": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
-    "thumbnail": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[red square, gray background, abstract art, minimalist design, geometric shape, monochromatic color scheme, simple composition, visual balance, artistic expression, creative vision, aesthetic appeal, design principles, color theory, spatial relationships, visual harmony, artistic intent, emotional resonance, viewer engagement, artistic interpretation]",
-    "license": [
-      {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -802,6 +754,7 @@
   },
   "BoxTextured": {
     "name": "BoxTextured",
+    "folder": "BoxTextured",
     "label": "Box Textured",
     "description": "Box with a power-of-2 texture. [Issues: non-Khronos mark]",
     "tags": [
@@ -825,9 +778,9 @@
     "keywords": "[logo, graphic, design, symbol, emblem, icon, image, picture, illustration, artwork, visual, representation, branding, identity, mark, sign, emblematic, figurative, pictorial]",
     "license": [
       {
-        "license": "LicenseRef-CC-BY-TM",
-        "url": "",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -837,6 +790,7 @@
   },
   "BoxTexturednot2%5EN": {
     "name": "BoxTexturednot2^N",
+    "folder": "BoxTexturedNonPowerOfTwo",
     "label": "Box Textured not 2^N",
     "description": "Box with a non-power-of-2 (NPOT) texture. Not all implementations support NPOT textures. [Issues: non-Khronos mark]",
     "tags": [
@@ -860,9 +814,9 @@
     "keywords": "[landscape, mountain, nature, scenery, outdoor, adventure, travel, hiking, camping, wilderness, environment, conservation, ecology, biology, geography, geology, climate, weather, atmosphere, earth]",
     "license": [
       {
-        "license": "LicenseRef-CC-BY-TM",
-        "url": "",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -872,8 +826,9 @@
   },
   "BoxVertexColors": {
     "name": "BoxVertexColors",
+    "folder": "BoxVertexColors",
     "label": "Box Vertex Colors",
-    "description": "A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute. ",
+    "description": "A simple unit cube that uses vertex colors, stored in the `COLORS_0` attribute.",
     "tags": [
       "Testing",
       "Core"
@@ -895,7 +850,7 @@
     "keywords": "[gradient, color, square, rectangle, shape, design, art, visual, graphic, pattern, style, aesthetic, composition, layout, arrangement, configuration, formation, structure, organization, presentation]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -905,8 +860,78 @@
     ],
     "isOnRenderFidelity": true
   },
+  "BoxWithSpaces": {
+    "name": "BoxWithSpaces",
+    "folder": "Box With Spaces",
+    "label": "Box With Spaces",
+    "description": "Box with URI-encoded spaces in the texture names used by a simple PBR material.",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf"
+    },
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Box With Spaces/glTF/Box With Spaces.gltf",
+    "image": "/images/BoxWithSpaces.webp",
+    "thumbnail": "/images/BoxWithSpaces.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[green, logo, company, name, text, background, color, design, style, font, size, shape, symbol, image, picture, graphic, visual, representation, identity, brand]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Ed Mackey"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "Boxwithinterleavedpositionandnormalattributes": {
+    "name": "Boxwithinterleavedpositionandnormalattributes",
+    "folder": "BoxInterleaved",
+    "label": "Box with interleaved position and normal attributes",
+    "description": "Box example with interleaved position and normal attributes.",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
+      "glTF-Embedded": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Embedded/BoxInterleaved.gltf"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF-Binary/BoxInterleaved.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/BoxInterleaved/glTF/BoxInterleaved.gltf",
+    "image": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
+    "thumbnail": "/images/Boxwithinterleavedpositionandnormalattributes.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[red square, gray background, abstract art, minimalist design, geometric shape, monochromatic color scheme, simple composition, visual balance, artistic expression, creative vision, aesthetic appeal, design principles, color theory, spatial relationships, visual harmony, artistic intent, emotional resonance, viewer engagement, artistic interpretation]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Cesium"
+    ],
+    "isOnRenderFidelity": true
+  },
   "BrainStem": {
     "name": "BrainStem",
+    "folder": "BrainStem",
     "label": "BrainStem",
     "description": "Animations. Skins.",
     "tags": [
@@ -940,6 +965,7 @@
   },
   "Cameras": {
     "name": "Cameras",
+    "folder": "Cameras",
     "label": "Cameras",
     "description": "A sample with two different camera objects",
     "tags": [
@@ -961,7 +987,7 @@
     "keywords": "[white, square, shape, 3d, design, graphic, illustration, minimalist, modern, simple, clean, geometric, abstract, art, visual, concept, idea, representation, symbol, object]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -973,6 +999,7 @@
   },
   "CarConcept": {
     "name": "CarConcept",
+    "folder": "CarConcept",
     "label": "Car Concept",
     "description": "Concept car with Khronos logos and material variants",
     "tags": [
@@ -1014,7 +1041,7 @@
     "keywords": "[car, red, vehicle, transportation, sports car, luxury, high-performance, sleek, fast, powerful, engine, wheels, interior, exterior, design, style, speed, acceleration, handling, braking]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -1026,6 +1053,7 @@
   },
   "CarbonFibreBall": {
     "name": "CarbonFibreBall",
+    "folder": "CarbonFibre",
     "label": "Carbon Fibre Ball",
     "description": "Example of anisotropy applied to a ball with a simulated carbon fiber surface.",
     "tags": [
@@ -1051,7 +1079,7 @@
     "keywords": "[3d, ball, sphere, black, texture, pattern, surface, design, model, object, render, visualization, graphics, computer, art, illustration, digital, image, visual]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -1063,6 +1091,7 @@
   },
   "CesiumMan": {
     "name": "CesiumMan",
+    "folder": "CesiumMan",
     "label": "Cesium Man",
     "description": "Textured. Animations. Skins. [Issues: non-Khronos mark]",
     "tags": [
@@ -1088,9 +1117,9 @@
     "keywords": "[3D, animation, art, character, computer, design, digital, figure, game, graphic, human, illustration, model, person, render, robot, scene, simulation, software, virtual], Animated",
     "license": [
       {
-        "license": "LicenseRef-CC-BY-TM",
-        "url": "",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1100,6 +1129,7 @@
   },
   "CesiumMilkTruck": {
     "name": "CesiumMilkTruck",
+    "folder": "CesiumMilkTruck",
     "label": "Cesium Milk Truck",
     "description": "Textured. Multiple nodes/meshes. Animations. [Issues: non-Khronos mark]",
     "tags": [
@@ -1125,9 +1155,9 @@
     "keywords": "[delivery, truck, vehicle, transportation, logistics, shipping, cargo, freight, package, parcel, mail, courier, service, delivery van, trucking, transport, shipping company, freight forwarding, logistics company], Animated",
     "license": [
       {
-        "license": "LicenseRef-CC-BY-TM",
-        "url": "",
-        "icon": "https://licensebuttons.net/l/by/3.0/88x31.png"
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
@@ -1137,6 +1167,7 @@
   },
   "ChairDamaskPurplegold": {
     "name": "ChairDamaskPurplegold",
+    "folder": "ChairDamaskPurplegold",
     "label": "Chair Damask Purplegold",
     "description": "Use of sheen to create a high-end small seat (damask).",
     "tags": [
@@ -1166,7 +1197,7 @@
     "keywords": "[chair, purple, gold, design, furniture, upholstery, fabric, pattern, texture, color, style, modern, contemporary, interior, decor, home, office, space, room, furniture]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -1178,6 +1209,7 @@
   },
   "ChronographWatch": {
     "name": "ChronographWatch",
+    "folder": "ChronographWatch",
     "label": "Chronograph Watch",
     "description": "Wrist watch with Khronos logos and material variants",
     "tags": [
@@ -1212,7 +1244,7 @@
     "keywords": "[watch, timepiece, accessory, fashion, style, luxury, elegance, sophistication, precision, craftsmanship, design, innovation, technology, functionality, durability, reliability, comfort, versatility, uniqueness], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -1224,8 +1256,9 @@
   },
   "ClearCoatCarPaint": {
     "name": "ClearCoatCarPaint",
+    "folder": "ClearCoatCarPaint",
     "label": "Clear Coat Car Paint",
-    "description": "This model is a sphere using the glTF ClearCoat extension overtop a car paint base material. ",
+    "description": "This model is a sphere using the glTF ClearCoat extension overtop a car paint base material.",
     "tags": [
       "Extension",
       "Testing",
@@ -1252,7 +1285,7 @@
     "keywords": "[red, ball, sphere, round, circle, object, 3d, model, render, graphic, design, illustration, art, computer, generated, image, visual, representation, digital, creation]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1262,46 +1295,9 @@
     ],
     "isOnRenderFidelity": true
   },
-  "KHR_materials_clearcoatTest": {
-    "name": "KHR_materials_clearcoatTest",
-    "label": "KHR_materials_clearcoat Test",
-    "description": "Tests if the KHR_materials_clearcoat extension is supported properly.",
-    "tags": [
-      "Testing",
-      "Extension",
-      "Clearcoat"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb"
-    },
-    "extensionsUsed": [
-      "KHR_materials_clearcoat"
-    ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
-    "image": "/images/KHR_materials_clearcoatTest.webp",
-    "thumbnail": "/images/KHR_materials_clearcoatTest.webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 0
-    },
-    "keywords": "[Base layer, Coated, Coating Only, Simple coating, Partial coating, Roughness variations, Base normal map, Shared normal map, Coat normal map]",
-    "license": [
-      {
-        "license": "CC-BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Ed Mackey"
-    ],
-    "isOnRenderFidelity": true
-  },
   "ClearcoatWicker": {
     "name": "ClearcoatWicker",
+    "folder": "ClearcoatWicker",
     "label": "Clearcoat Wicker",
     "description": "This model is a sphere using the glTF ClearCoat to create a wicker material covered with a wrinkled plastic clearcoat material.",
     "tags": [
@@ -1328,7 +1324,7 @@
     "keywords": "[3D rendering, basket, sphere, woven, texture, pattern, design, art, illustration, graphic, digital, computer-generated, visual, image, object, shape, form, structure]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1340,6 +1336,7 @@
   },
   "CommercialRefrigerator": {
     "name": "CommercialRefrigerator",
+    "folder": "CommercialRefrigerator",
     "label": "Commercial Refrigerator",
     "description": "Commercial refrigerator with glass condensation, champagne bottles, and door animation.",
     "tags": [
@@ -1369,12 +1366,12 @@
     "keywords": "[icey, drinks, refrigerator, bottles, drinks, fridge, cold, beverages, refreshments, cooling, storage, temperature, control, system, appliance, kitchen, household, electric, device], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -1387,6 +1384,7 @@
   },
   "CompareAlphaCoverage": {
     "name": "CompareAlphaCoverage",
+    "folder": "CompareAlphaCoverage",
     "label": "Compare Alpha Coverage",
     "description": "This model compares alpha coverage methods.",
     "tags": [
@@ -1409,7 +1407,7 @@
     "keywords": "[grass, field, nature, green, landscape, outdoor, scenery, environment, ecology, conservation, wildlife, habitat, ecosystem, biodiversity, sustainability, earth, planet, climate, weather, atmosphere]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1421,6 +1419,7 @@
   },
   "CompareAmbientOcclusion": {
     "name": "CompareAmbientOcclusion",
+    "folder": "CompareAmbientOcclusion",
     "label": "Compare Ambient Occlusion",
     "description": "This model compares without occlusion versus with occlusion.",
     "tags": [
@@ -1443,12 +1442,12 @@
     "keywords": "[fruit, basket, apples, oranges, grapes, bananas, lemons, limes, peaches, pears, plums, cherries, strawberries, blueberries, raspberries, blackberries, watermelon, pineapple, mangoes, kiwi]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1461,6 +1460,7 @@
   },
   "CompareAnisotropy": {
     "name": "CompareAnisotropy",
+    "folder": "CompareAnisotropy",
     "label": "Compare Anisotropy",
     "description": "This model compares without anisotropy vs. with anisotropy.",
     "tags": [
@@ -1489,7 +1489,7 @@
     "keywords": "[gitf, logo, branding, design, technology, innovation, software, development, programming, coding, engineering, artificial intelligence, machine learning, data science, cybersecurity, cloud computing, blockchain, robotics, automation, internet of things]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1501,6 +1501,7 @@
   },
   "CompareBaseColor": {
     "name": "CompareBaseColor",
+    "folder": "CompareBaseColor",
     "label": "Compare Base Color",
     "description": "This model compares base color methods.",
     "tags": [
@@ -1526,7 +1527,7 @@
     "keywords": "[3D, Animation, Art, Ball, Colorful, Creative, Design, Digital, Graphics, Illustration, Image, Innovative, Interactive, Media, Modern, Motion, Original, Pixel, Render, Visual]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1538,6 +1539,7 @@
   },
   "CompareClearcoat": {
     "name": "CompareClearcoat",
+    "folder": "CompareClearcoat",
     "label": "Compare Clearcoat",
     "description": "This model compares clearcoat methods.",
     "tags": [
@@ -1566,7 +1568,7 @@
     "keywords": "[green, balls, logo, gltf, spheres, transparent, glassy, reflective, shiny, round, circular, three, trio, set, group, collection, arrangement, display, showcase, presentation]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1578,6 +1580,7 @@
   },
   "CompareDispersion": {
     "name": "CompareDispersion",
+    "folder": "CompareDispersion",
     "label": "Compare Dispersion",
     "description": "This model compares dispersion methods.",
     "tags": [
@@ -1610,7 +1613,7 @@
     "keywords": "[3D, animation, computer graphics, design, digital art, graphics, illustration, modeling, rendering, software, technology, visualization, visual effects, CGI, computer-aided design, computer-generated imagery, digital painting, image processing, interactive design, multimedia, simulation, virtual reality]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1622,6 +1625,7 @@
   },
   "CompareEmissiveStrength": {
     "name": "CompareEmissiveStrength",
+    "folder": "CompareEmissiveStrength",
     "label": "Compare Emissive Strength",
     "description": "This model compares emissive versus emissive plus emissive strength.",
     "tags": [
@@ -1648,7 +1652,7 @@
     "keywords": "[glTF, 3D, graphics, rendering, computer-aided design, animation, visual effects, game development, virtual reality, augmented reality, 3D modeling, texture mapping, lighting, shading, physics-based rendering, real-time rendering, offline rendering, pre-rendered graphics, dynamic simulations, interactive 3D, virtual environments]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1660,6 +1664,7 @@
   },
   "CompareIOR": {
     "name": "CompareIOR",
+    "folder": "CompareIor",
     "label": "Compare IOR",
     "description": "This model compares IOR methods.",
     "tags": [
@@ -1690,7 +1695,7 @@
     "keywords": "[checkered, pattern, logo, branding, design, marketing, advertising, graphics, visual, identity, corporate, business, professional, commercial, promotional, creative, artistic, digital, visual]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1702,6 +1707,7 @@
   },
   "CompareIridescence": {
     "name": "CompareIridescence",
+    "folder": "CompareIridescence",
     "label": "Compare Iridescence",
     "description": "This model compares iridescence methods.",
     "tags": [
@@ -1728,7 +1734,7 @@
     "keywords": "[glTF, logo, branding, design, graphics, visual identity, 3D modeling, computer graphics, game development, virtual reality, augmented reality, mixed reality, interactive experiences, digital art, creative technology, innovation, design thinking, problem-solving, critical thinking, collaboration, communication].",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1740,6 +1746,7 @@
   },
   "CompareMetallic": {
     "name": "CompareMetallic",
+    "folder": "CompareMetallic",
     "label": "Compare Metallic",
     "description": "This model compares metallic methods.",
     "tags": [
@@ -1762,7 +1769,7 @@
     "keywords": "[glTF, 3D, graphics, rendering, technology, computer-aided design, CAD, modeling, simulation, visualization, animation, gaming, virtual reality, VR, augmented reality, AR, mixed reality, MR, interactive, immersive, digital twin, simulation-based design]\n\nThese keywords are relevant to the image as they relate to the glTF logo and its association with 3D graphics, rendering, and related technologies. The keywords also cover various applications and industries where glTF is used, such as gaming, virtual reality, and simulation-based design.",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1774,6 +1781,7 @@
   },
   "CompareNormal": {
     "name": "CompareNormal",
+    "folder": "CompareNormal",
     "label": "Compare Normal",
     "description": "This model compares normal methods.",
     "tags": [
@@ -1796,7 +1804,7 @@
     "keywords": "[balls, sports, volleyball, texture, design, pattern, ball, game, equipment, play, recreation, leisure, activity, fun, entertainment, competition, team, athletic, exercise, fitness]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1808,6 +1816,7 @@
   },
   "CompareRoughness": {
     "name": "CompareRoughness",
+    "folder": "CompareRoughness",
     "label": "Compare Roughness",
     "description": "This model compares roughness methods.",
     "tags": [
@@ -1830,7 +1839,7 @@
     "keywords": "[glTF, logo, branding, 3D, graphics, technology, software, gaming, virtual reality, augmented reality, computer-aided design, CAD, animation, simulation, visualization, rendering, modeling, texturing, lighting, shading, physics, dynamics]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1842,6 +1851,7 @@
   },
   "CompareSheen": {
     "name": "CompareSheen",
+    "folder": "CompareSheen",
     "label": "Compare Sheen",
     "description": "This model compares sheen methods.",
     "tags": [
@@ -1868,7 +1878,7 @@
     "keywords": "[glTF, 3D, logo, branding, graphics, design, technology, innovation, gaming, animation, virtual reality, augmented reality, computer graphics, software, tools, development, programming, coding, engineering, science, art]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1880,6 +1890,7 @@
   },
   "CompareSpecular": {
     "name": "CompareSpecular",
+    "folder": "CompareSpecular",
     "label": "Compare Specular",
     "description": "This model compares specular methods.",
     "tags": [
@@ -1906,7 +1917,7 @@
     "keywords": "[gtf, logo, branding, design, marketing, advertising, business, corporate, identity, visual, communication, strategy, creative, innovation, technology, digital, media, graphics, illustration, typography]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1918,6 +1929,7 @@
   },
   "CompareTransmission": {
     "name": "CompareTransmission",
+    "folder": "CompareTransmission",
     "label": "Compare Transmission",
     "description": "This model compares transmission methods.",
     "tags": [
@@ -1944,7 +1956,7 @@
     "keywords": "[checkerboard, glass, bowl, transparent, reflection, light, shadow, table, surface, pattern, design, art, visual, effect, illusion, depth, perception, space, texture]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1956,6 +1968,7 @@
   },
   "CompareVolume": {
     "name": "CompareVolume",
+    "folder": "CompareVolume",
     "label": "Compare Volume",
     "description": "This model compares volume methods.",
     "tags": [
@@ -1984,7 +1997,7 @@
     "keywords": "[watermark, glass, green, transparent, liquid, container, reflection, light, shadow, texture, surface, curvature, shape, form, volume, space, depth, dimensionality, visual, representation]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -1996,6 +2009,7 @@
   },
   "Corset": {
     "name": "Corset",
+    "folder": "Corset",
     "label": "Corset",
     "description": "A female fabric mannequin with a corset and a collar.",
     "tags": [
@@ -2019,7 +2033,7 @@
     "keywords": "[corset, mannequin, dress form, sewing, fashion, clothing, textile, garment, bodice, skirt, waist, bust, silhouette, pattern, fabric, thread, needle, embroidery, lace, ribbon]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2031,6 +2045,7 @@
   },
   "Cube": {
     "name": "Cube",
+    "folder": "Cube",
     "label": "Cube",
     "description": "A cube with non-smoothed faces.",
     "tags": [
@@ -2051,7 +2066,7 @@
     "keywords": "[marble, stone, texture, pattern, design, background, image, photo, picture, visual, graphic, illustration, art, creative, concept, idea, inspiration, style, aesthetic, beauty]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2063,11 +2078,13 @@
   },
   "CubeVisibility": {
     "name": "CubeVisibility",
+    "folder": "CubeVisibility",
     "label": "CubeVisibility",
     "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
     "tags": [
       "Testing",
       "Animation Pointer",
+      "Node Visibility",
       "Animation"
     ],
     "variants": {
@@ -2087,10 +2104,10 @@
       "pitch": 0,
       "distance": 0
     },
-    "keywords": ", Animated",
+    "keywords": "[Green Cube], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2102,6 +2119,7 @@
   },
   "DamagedHelmet": {
     "name": "DamagedHelmet",
+    "folder": "DamagedHelmet",
     "label": "Damaged Helmet",
     "description": "Flight helmet with damage",
     "tags": [
@@ -2126,12 +2144,12 @@
     "keywords": "[robot, helmet, futuristic, sci-fi, technology, advanced, sleek, metallic, shiny, reflective, glowing, blue, red, green, yellow, orange, purple, pink, black, white]",
     "license": [
       {
-        "license": "CC-BY",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY-NC",
+        "license": "CC-BY-NC-4.0",
         "url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by-nc/4.0/88x31.png"
       }
@@ -2144,6 +2162,7 @@
   },
   "DiffuseTransmissionPlant": {
     "name": "DiffuseTransmissionPlant",
+    "folder": "DiffuseTransmissionPlant",
     "label": "Diffuse Transmission Plant",
     "description": "Potted plant asset using Diffuse Transmission extension.",
     "tags": [
@@ -2173,12 +2192,12 @@
     "keywords": "[plant, pot, leaves, green, nature, growth, foliage, garden, soil, water, sunlight, photosynthesis, roots, stem, branches, flowers, fruit, seeds, pruning, fertilization], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2191,6 +2210,7 @@
   },
   "DiffuseTransmissionTeacup": {
     "name": "DiffuseTransmissionTeacup",
+    "folder": "DiffuseTransmissionTeacup",
     "label": "Diffuse Transmission Teacup",
     "description": "DiffuseTransmissionTeacup model using Diffuse Transmission extension.",
     "tags": [
@@ -2218,7 +2238,7 @@
     "license": [
       {
         "license": "CC0-1.0",
-        "url": "https://creativecommons.org/share-your-work/public-domain/cc0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
     ],
@@ -2229,6 +2249,7 @@
   },
   "DiffuseTransmissionTest": {
     "name": "DiffuseTransmissionTest",
+    "folder": "DiffuseTransmissionTest",
     "label": "DiffuseTransmissionTest",
     "description": "Test model for KHR_materials_diffuse_transmission extension.",
     "tags": [
@@ -2258,7 +2279,7 @@
     "keywords": "[diffuseTransmissionFactor, diffuseTransmissionColorFactor, diffuseTransmissionTexture, diffuseTransmissionColorTexture, KHRONOS, CIF, CITF, color, texture, factor, transmission, diffuse, graphics, rendering, 3D, modeling, animation, visualization, simulation, gaming, design]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2270,6 +2291,7 @@
   },
   "DirectionalLight": {
     "name": "DirectionalLight",
+    "folder": "DirectionalLight",
     "label": "Directional Light",
     "description": "Verification of light calculations",
     "tags": [
@@ -2295,7 +2317,7 @@
     "keywords": "[three, balls, white, background, round, sphere, circle, object, transparent, glass, plastic, reflective, shiny, smooth, surface, texture, material, color, light, shadow]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2307,6 +2329,7 @@
   },
   "DispersionTest": {
     "name": "DispersionTest",
+    "folder": "DispersionTest",
     "label": "Dispersion Test",
     "description": "This model tests the KHR_materials_dispersion extension.",
     "tags": [
@@ -2339,7 +2362,7 @@
     "keywords": "[dispersion, ior, 3d, rendering, checkerboard, black, white, squares, texture, pattern, cube, box, grid, surface, normal, map, bump, reflection, refraction, transparency]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2351,6 +2374,7 @@
   },
   "DragonAttenuation": {
     "name": "DragonAttenuation",
+    "folder": "DragonAttenuation",
     "label": "Dragon Attenuation",
     "description": "Dragon with background, using material variants, transmission, and volume.",
     "tags": [
@@ -2382,7 +2406,7 @@
     "keywords": "[checkered, floor, background, chessboard, squares, alternating, black, white, pattern, design, graphic, visual, art, style, aesthetic, layout, grid, texture, surface]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2394,6 +2418,7 @@
   },
   "DragonDispersion": {
     "name": "DragonDispersion",
+    "folder": "DragonDispersion",
     "label": "Dragon Dispersion",
     "description": "Dragon with background, using dispersion, transmission, and volume.",
     "tags": [
@@ -2425,7 +2450,7 @@
     "keywords": "[checkerboard, chessboard, black and white, geometric pattern, grid, squares, alternating colors, tile, floor, design, visual effect, optical illusion, 3D rendering, computer-generated image, digital art, abstract, pattern, texture, visual interest]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2437,6 +2462,7 @@
   },
   "Duck": {
     "name": "Duck",
+    "folder": "Duck",
     "label": "Duck",
     "description": "The COLLADA duck. One texture.",
     "tags": [
@@ -2469,6 +2495,7 @@
   },
   "EmissiveStrengthTest": {
     "name": "EmissiveStrengthTest",
+    "folder": "EmissiveStrengthTest",
     "label": "Emissive Strength Test",
     "description": "Tests if the KHR_materials_emissive_strength extension is supported properly.",
     "tags": [
@@ -2495,7 +2522,7 @@
     "keywords": "[blue, squares, grid, 3d, rendering, illustration, abstract, design, graphic, art, digital, cube, shape, pattern, structure, architecture, visual, representation, concept, idea]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2507,6 +2534,7 @@
   },
   "EnvironmentTest": {
     "name": "EnvironmentTest",
+    "folder": "EnvironmentTest",
     "label": "Environment Test",
     "description": "A simple scene with metal and dielectric spheres that range between 0 and 1 roughness. Useful for testing environment lighting.",
     "tags": [
@@ -2535,15 +2563,18 @@
   },
   "FlightHelmet": {
     "name": "FlightHelmet",
+    "folder": "FlightHelmet",
     "label": "Flight Helmet",
     "description": "Displayed flight helmet on a wooden stand.",
     "tags": [
       "Showcase",
       "Testing",
-      "Transmission"
+      "Transmission",
+      "KTX"
     ],
     "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/FlightHelmet/glTF/FlightHelmet.gltf"
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/FlightHelmet/glTF/FlightHelmet.gltf",
+      "glTF-KTX-BasisU": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet.gltf"
     },
     "extensionsUsed": [
       "KHR_materials_transmission"
@@ -2559,7 +2590,7 @@
     "keywords": "[aviator, helmet, goggles, flight, suit, pilot, aircraft, propeller, engine, wings, cockpit, controls, instruments, navigation, communication, safety, emergency, landing, takeoff]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2571,6 +2602,7 @@
   },
   "Fox": {
     "name": "Fox",
+    "folder": "Fox",
     "label": "Fox",
     "description": "Multiple animations cycles: Survey, Walk, Run.",
     "tags": [
@@ -2594,17 +2626,17 @@
     "keywords": "[low poly, 3d model, fox, animal, wildlife, nature, forest, woods, bush, trees, leaves, grass, earth, ground, terrain, landscape, scenery, environment, ecosystem, habitat], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2618,6 +2650,7 @@
   },
   "GlamVelvetSofa": {
     "name": "GlamVelvetSofa",
+    "folder": "GlamVelvetSofa",
     "label": "GlamVelvetSofa",
     "description": "Sofa using material variants, sheen, and specular.",
     "tags": [
@@ -2651,7 +2684,7 @@
     "keywords": "[blue velvet couch, curved sofa, modern furniture, living room decor, interior design, home decor, blue furniture, velvet couch, curved furniture, modern decor, living room furniture, blue decor, velvet decor, curved decor, modern living room, blue interior, velvet interior, curved interior, modern home, blue home, velvet home]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2663,6 +2696,7 @@
   },
   "GlassBrokenWindow": {
     "name": "GlassBrokenWindow",
+    "folder": "GlassBrokenWindow",
     "label": "Glass Broken Window",
     "description": "This asset demonstrates the combination of two transparency methods in glTF: KHR_materials_transmission for glass and alphaMode:'MASK' for holes in the broken glass.",
     "tags": [
@@ -2688,7 +2722,7 @@
     "keywords": "[broken glass, shattered window, cracked pane, damaged glass, broken window, shattered glass, cracked glass, broken window pane, damaged window, shattered glass window, cracked glass window, broken glass window, damaged glass window, broken window glass, shattered window glass, cracked window glass, damaged window glass, broken glass pane, shattered glass pane, cracked glass pane]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2700,6 +2734,7 @@
   },
   "GlassHurricaneCandleHolder": {
     "name": "GlassHurricaneCandleHolder",
+    "folder": "GlassHurricaneCandleHolder",
     "label": "Glass Hurricane Candle Holder",
     "description": "Glass holder using Materials Tranmission and Materials Volume extensions.",
     "tags": [
@@ -2728,7 +2763,7 @@
     "keywords": "[blue, glass, cup, logo, design, brand, product, marketing, advertising, promotion, business, company, organization, identity, visual, creative, artwork, illustration, graphics]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2740,6 +2775,7 @@
   },
   "GlassVasewithFlowers": {
     "name": "GlassVasewithFlowers",
+    "folder": "GlassVaseFlowers",
     "label": "Glass Vase with Flowers",
     "description": "This model compares transparency methods for representing glass in glTF: alphaMode:'BLEND' (left) versus the extensions KHR_materials_transmission and KHR_materials_volume (right).",
     "tags": [
@@ -2767,12 +2803,12 @@
     "keywords": "[flower, vase, glass, water, stems, leaves, petals, colors, arrangement, bouquet, floral, design, decoration, interior, space, room, table, surface, objects]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2785,6 +2821,7 @@
   },
   "IORTestGrid": {
     "name": "IORTestGrid",
+    "folder": "IORTestGrid",
     "label": "IORTestGrid",
     "description": "Grid of spheres over a checkered backdrop to test IOR rendering.",
     "tags": [
@@ -2816,7 +2853,7 @@
     "keywords": "[black, basecolor, roughness, metallic, transmission, specular, white, diamond, sapphire, glass, water, air, color, base, rough, metal, trans, spec, dia, sap, gla, wat, ai]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2828,6 +2865,7 @@
   },
   "InterpolationTest": {
     "name": "InterpolationTest",
+    "folder": "InterpolationTest",
     "label": "Interpolation Test",
     "description": "A sample with three different animation interpolations",
     "tags": [
@@ -2851,7 +2889,7 @@
     "keywords": "[linear, step, cubicspline, 3d, rendering, animation, graphics, design, art, illustration, visualization, modeling, simulation, physics, engineering, architecture, computer-aided, software, technology, innovation], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2863,6 +2901,7 @@
   },
   "IridescenceAbalone": {
     "name": "IridescenceAbalone",
+    "folder": "IridescenceAbalone",
     "label": "IridescenceAbalone",
     "description": "A model of an abalone shell with highly iridescent interior.",
     "tags": [
@@ -2888,12 +2927,12 @@
     "keywords": "[shell, object, surface, texture, color, shape, size, material, composition, structure, pattern, design, form, function, purpose, origin, history, significance, meaning, context]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2906,6 +2945,7 @@
   },
   "IridescenceDielectricSpheres": {
     "name": "IridescenceDielectricSpheres",
+    "folder": "IridescenceDielectricSpheres",
     "label": "Iridescence Dielectric Spheres",
     "description": "Tests KHR_materials_iridescence on a non-metallic material.",
     "tags": [
@@ -2932,7 +2972,7 @@
     "keywords": "[3D, visualization, data, spheres, lines, points, space, graphics, computer, science, engineering, architecture, design, art, technology, innovation, creativity, imagination, problem-solving, critical thinking]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -2944,6 +2984,7 @@
   },
   "IridescenceLamp": {
     "name": "IridescenceLamp",
+    "folder": "IridescenceLamp",
     "label": "Iridescence Lamp",
     "description": "Wayfair Lamp model using transmission, volume, and KHR_materials_iridescence.",
     "tags": [
@@ -2976,7 +3017,7 @@
     "keywords": "[3D, lamp, glass, sphere, light, table, lampshade, design, interior, decoration, home, furniture, decor, lighting, fixture, shade, base, switch, cord, bulb]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -2988,6 +3029,7 @@
   },
   "IridescenceMetallicSpheres": {
     "name": "IridescenceMetallicSpheres",
+    "folder": "IridescenceMetallicSpheres",
     "label": "Iridescence Metallic Spheres",
     "description": "Tests KHR_materials_iridescence on a metallic material.",
     "tags": [
@@ -3014,7 +3056,7 @@
     "keywords": "[3D, animation, art, colorful, creative, design, digital, graphics, illustration, innovative, interactive, multimedia, new, original, pioneering, revolutionary, technological, unique, visual]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3026,6 +3068,7 @@
   },
   "IridescenceSuzanne": {
     "name": "IridescenceSuzanne",
+    "folder": "IridescenceSuzanne",
     "label": "Iridescence Suzanne",
     "description": "Further tests KHR_materials_iridescence.",
     "tags": [
@@ -3060,12 +3103,12 @@
     "keywords": "[monkey, head, face, eyes, nose, mouth, ears, hair, body, tail, arms, legs, hands, feet, fingers, toes, skin, fur, eyesockets, nostrils]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3078,6 +3121,7 @@
   },
   "IridescentDishwithOlives": {
     "name": "IridescentDishwithOlives",
+    "folder": "IridescentDishWithOlives",
     "label": "Iridescent Dish with Olives",
     "description": "Dish using transmission, volume, IOR, and specular. [Issues: non-Khronos mark]",
     "tags": [
@@ -3111,7 +3155,7 @@
     "keywords": "[3D, animation, art, artistic, background, bowl, bowl of fruit, cartoon, color, computer, computer-generated, computer-generated imagery, creative, design, digital, digital art, digital artwork, digital illustration, digital painting, fantasy, fictional, food, fruit, futuristic, graphic, graphic art, graphics, illustration, imaginative, image, imagery, imaging, imaginative, impression, impressionist, impressionistic, inventive, inventive, item, made-up, made-up, model, modeling, modern, object, original, painting, photo, photograph, photography, picture, produce, product, realistic, render, rendered, rendering, representation, scene, scenery, shape, simulation, sketch, software, still life, style, synthetic, technology, texture, three-dimensional, visual, visualization, visualizing, visuals], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3121,92 +3165,48 @@
     ],
     "isOnRenderFidelity": true
   },
-  "Lantern": {
-    "name": "Lantern",
-    "label": "Lantern",
-    "description": "Old wooden street light.",
+  "KHR_materials_clearcoatTest": {
+    "name": "KHR_materials_clearcoatTest",
+    "folder": "ClearCoatTest",
+    "label": "KHR_materials_clearcoat Test",
+    "description": "Tests if the KHR_materials_clearcoat extension is supported properly.",
     "tags": [
       "Testing",
-      "Draco",
-      "Meshopt"
+      "Extension",
+      "Clearcoat"
     ],
     "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF/Lantern.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Binary/Lantern.glb",
-      "glTF-Draco": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Draco/Lantern.gltf",
-      "glTF-Quantized": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Quantized/Lantern.gltf"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Binary/Lantern.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF/Lantern.gltf",
-    "image": "/images/Lantern.webp",
-    "thumbnail": "/images/Lantern.webp",
-    "camera": {
-      "yaw": -45,
-      "pitch": 20,
-      "distance": 0
-    },
-    "keywords": "[3D, animation, art, artistic, background, black, blue, bright, brown, cartoon, character, color, colorful, computer, concept, creative, dark, design, detailed, digital, drawing, fantasy, fiction, figure, film, fine, graphic, green, grey, high, illustration, image, imaginary, imagination, imaginative, impressive, individual, industrial, innovative, inspiration, interesting, inventive, light, lighting, line, little, media, model, modern, movie, new, object, original, painting, paper, pattern, people, person, photo, photograph, picture, pixel, portrait, pretty, print, production, professional, project, quality, realistic, red, render, resolution, scene, screen, sculpture, shape, shot, simple, sketch, skill, sky, small, software, space, special, sport, still, story, style, subject, support, system, talent, technique, technology, texture, theme, time, traditional, unique, visual, white, work, yellow]",
-    "license": [
-      {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      },
-      {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "sbtron",
-      "Frank Galligan"
-    ],
-    "isOnRenderFidelity": true
-  },
-  "LightVisibility": {
-    "name": "LightVisibility",
-    "label": "LightVisibility",
-    "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
-    "tags": [
-      "Testing",
-      "Animation Pointer",
-      "Lights",
-      "Animation"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb"
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb"
     },
     "extensionsUsed": [
-      "KHR_animation_pointer",
-      "KHR_lights_punctual",
-      "KHR_node_visibility"
+      "KHR_materials_clearcoat"
     ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
-    "image": "/images/LightVisibility.webp",
-    "thumbnail": "/images/LightVisibility.webp",
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF-Binary/ClearCoatTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ClearCoatTest/glTF/ClearCoatTest.gltf",
+    "image": "/images/KHR_materials_clearcoatTest.webp",
+    "thumbnail": "/images/KHR_materials_clearcoatTest.webp",
     "camera": {
       "yaw": 0,
       "pitch": 0,
       "distance": 0
     },
-    "keywords": ", Animated",
+    "keywords": "[Base layer, Coated, Coating Only, Simple coating, Partial coating, Roughness variations, Base normal map, Shared normal map, Coat normal map]",
     "license": [
       {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
     ],
     "authors": [
-      "Aaron Franke"
+      "Ed Mackey"
     ],
-    "isOnRenderFidelity": false
+    "isOnRenderFidelity": true
   },
   "LampwithPunctualLights": {
     "name": "LampwithPunctualLights",
+    "folder": "LightsPunctualLamp",
     "label": "Lamp with Punctual Lights",
     "description": "Lamp using punctual lights.",
     "tags": [
@@ -3235,7 +3235,7 @@
     "keywords": "[light, lamp, table, desk, floor, standing, hanging, pendant, chandelier, sconce, wall, ceiling, fixture, lighting, home, decor, interior, design, furniture]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3245,8 +3245,96 @@
     ],
     "isOnRenderFidelity": true
   },
+  "Lantern": {
+    "name": "Lantern",
+    "folder": "Lantern",
+    "label": "Lantern",
+    "description": "Old wooden street light.",
+    "tags": [
+      "Testing",
+      "Draco",
+      "Meshopt"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF/Lantern.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Binary/Lantern.glb",
+      "glTF-Draco": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Draco/Lantern.gltf",
+      "glTF-Quantized": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Quantized/Lantern.gltf"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF-Binary/Lantern.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/Lantern/glTF/Lantern.gltf",
+    "image": "/images/Lantern.webp",
+    "thumbnail": "/images/Lantern.webp",
+    "camera": {
+      "yaw": -45,
+      "pitch": 20,
+      "distance": 0
+    },
+    "keywords": "[3D, animation, art, artistic, background, black, blue, bright, brown, cartoon, character, color, colorful, computer, concept, creative, dark, design, detailed, digital, drawing, fantasy, fiction, figure, film, fine, graphic, green, grey, high, illustration, image, imaginary, imagination, imaginative, impressive, individual, industrial, innovative, inspiration, interesting, inventive, light, lighting, line, little, media, model, modern, movie, new, object, original, painting, paper, pattern, people, person, photo, photograph, picture, pixel, portrait, pretty, print, production, professional, project, quality, realistic, red, render, resolution, scene, screen, sculpture, shape, shot, simple, sketch, skill, sky, small, software, space, special, sport, still, story, style, subject, support, system, talent, technique, technology, texture, theme, time, traditional, unique, visual, white, work, yellow]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      },
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "sbtron",
+      "Frank Galligan"
+    ],
+    "isOnRenderFidelity": true
+  },
+  "LightVisibility": {
+    "name": "LightVisibility",
+    "folder": "LightVisibility",
+    "label": "LightVisibility",
+    "description": "This model demonstrates the `KHR_node_visibility` extension and its interaction with `KHR_animation_pointer`.",
+    "tags": [
+      "Testing",
+      "Animation Pointer",
+      "Lights",
+      "Node Visibility",
+      "Animation"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb"
+    },
+    "extensionsUsed": [
+      "KHR_animation_pointer",
+      "KHR_lights_punctual",
+      "KHR_node_visibility"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF-Binary/LightVisibility.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/LightVisibility/glTF/LightVisibility.gltf",
+    "image": "/images/LightVisibility.webp",
+    "thumbnail": "/images/LightVisibility.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[light green circle, muted gray gradient background, soft focus blur effect, minimalist composition, pale green hue, blurred circular shape, neutral color palette, centered geometric element, abstract image, subtle contrast, digital art piece, light gray rectangle frame, out of focus circle form, diffused glow effect, modern aesthetic design, minimalistic visual style, soft-edged abstraction, muted tone backdrop, geometric composition, aesthetic simplicity], Animated",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Aaron Franke"
+    ],
+    "isOnRenderFidelity": false
+  },
   "MandarinOrange": {
     "name": "MandarinOrange",
+    "folder": "MandarinOrange",
     "label": "MandarinOrange",
     "description": "Scattering of light through the tangerine using the glTF diffuse transmission extension is shown in this test.",
     "tags": [
@@ -3271,12 +3359,12 @@
     "keywords": "[art, design, abstract, 3D, rendering, flower, petals, yellow, orange, brown, gradient, background, texture, pattern, digital, illustration, graphics, visual, creative, aesthetic]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3289,6 +3377,7 @@
   },
   "MaterialsVariantsShoe": {
     "name": "MaterialsVariantsShoe",
+    "folder": "MaterialsVariantsShoe",
     "label": "Materials Variants Shoe",
     "description": "A model of a shoe that illustrates use of the KHR_materials_variants extension with three materials included in the asset.",
     "tags": [
@@ -3315,7 +3404,7 @@
     "keywords": "[blue, shoe, athletic, sport, running, walking, hiking, trail, outdoor, adventure, fitness, exercise, health, wellness, style, fashion, trend, design, innovation, technology]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3327,6 +3416,7 @@
   },
   "MeshPrimitiveModes": {
     "name": "MeshPrimitiveModes",
+    "folder": "MeshPrimitiveModes",
     "label": "Mesh Primitive Modes",
     "description": "An example that shows rendering modes that are supported for mesh primitives in glTF.",
     "tags": [
@@ -3348,7 +3438,7 @@
     "keywords": "[hexagon, shape, design, pattern, geometry, math, symmetry, art, visual, representation, illustration, graphic, element, structure, composition, arrangement, layout, configuration, organization, alignment]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3360,11 +3450,14 @@
   },
   "MeshoptCubeTest": {
     "name": "MeshoptCubeTest",
+    "folder": "MeshoptCubeTest",
     "label": "Meshopt Cube Test",
     "description": "This model tests the KHR_meshopt_compression extension.",
     "tags": [
       "Extension",
       "Testing",
+      "Quantization",
+      "Meshopt",
       "Animation"
     ],
     "variants": {
@@ -3383,10 +3476,10 @@
       "pitch": 0,
       "distance": 0
     },
-    "keywords": ", Animated",
+    "keywords": "[uncompressed, compressed, attr8, attr16, attr32, interleaved, separate, indices, triangles, animated rotation, v0, v1, attributes, filters, data compression, geometry representation, vertex storage, texture format, rendering pipeline, attribute layout], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3396,8 +3489,50 @@
     ],
     "isOnRenderFidelity": false
   },
+  "Metal-RoughSpheres(textureless)": {
+    "name": "Metal-RoughSpheres(textureless)",
+    "folder": "MetalRoughSpheresNoTextures",
+    "label": "Metal-Rough Spheres (textureless)",
+    "description": "Tests various metal and roughness values (textureless).",
+    "tags": [
+      "Testing",
+      "Core"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF/MetalRoughSpheresNoTextures.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF-Binary/MetalRoughSpheresNoTextures.glb"
+    },
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF-Binary/MetalRoughSpheresNoTextures.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF/MetalRoughSpheresNoTextures.gltf",
+    "image": "/images/Metal-RoughSpheres(textureless).webp",
+    "thumbnail": "/images/Metal-RoughSpheres(textureless).webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 4
+    },
+    "keywords": "[metal, non-metal, smooth, rough, balls, spheres, 3D, graphics, design, illustration, visualization, representation, concept, idea, innovation, creativity, art, technology, computer-generated, digital]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      },
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Krill Gavrilov",
+      "CAD Model generated by Draw Harness script using Open CASCADE Technology"
+    ],
+    "isOnRenderFidelity": true
+  },
   "Metal-RoughSpheres": {
     "name": "Metal-RoughSpheres",
+    "folder": "MetalRoughSpheres",
     "label": "Metal-Rough Spheres",
     "description": "Tests various metal and roughness values (texture mapped).",
     "tags": [
@@ -3421,7 +3556,7 @@
     "keywords": "[metal, non-metal, smooth, rough, spheres, balls, yellow, white, gray, spheres, circles, dots, points, shapes, forms, textures, patterns, colors, gradients, backgrounds]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3431,48 +3566,9 @@
     ],
     "isOnRenderFidelity": true
   },
-  "Metal-RoughSpheres(textureless)": {
-    "name": "Metal-RoughSpheres(textureless)",
-    "label": "Metal-Rough Spheres (textureless)",
-    "description": "Tests various metal and roughness values (textureless).",
-    "tags": [
-      "Testing",
-      "Core"
-    ],
-    "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF/MetalRoughSpheresNoTextures.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF-Binary/MetalRoughSpheresNoTextures.glb"
-    },
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF-Binary/MetalRoughSpheresNoTextures.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/MetalRoughSpheresNoTextures/glTF/MetalRoughSpheresNoTextures.gltf",
-    "image": "/images/Metal-RoughSpheres(textureless).webp",
-    "thumbnail": "/images/Metal-RoughSpheres(textureless).webp",
-    "camera": {
-      "yaw": 0,
-      "pitch": 0,
-      "distance": 4
-    },
-    "keywords": "[metal, non-metal, smooth, rough, balls, spheres, 3D, graphics, design, illustration, visualization, representation, concept, idea, innovation, creativity, art, technology, computer-generated, digital]",
-    "license": [
-      {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      },
-      {
-        "license": "CC0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
-        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
-      }
-    ],
-    "authors": [
-      "Krill Gavrilov",
-      "CAD Model generated by Draw Harness script using Open CASCADE Technology"
-    ],
-    "isOnRenderFidelity": true
-  },
   "Morph-PrimitivesTest": {
     "name": "Morph-PrimitivesTest",
+    "folder": "MorphPrimitivesTest",
     "label": "Morph-Primitives Test",
     "description": "Tests a morph target on multiple primitives.",
     "tags": [
@@ -3498,12 +3594,12 @@
     "keywords": "[checkerboard, red, black, 3d, game, board, pieces, squares, alternating, pattern, design, graphic, illustration, digital, art, computer, generated, image, visual, representation]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3516,6 +3612,7 @@
   },
   "MorphStressTest": {
     "name": "MorphStressTest",
+    "folder": "MorphStressTest",
     "label": "Morph Stress Test",
     "description": "Tests up to 8 morph targets.",
     "tags": [
@@ -3540,7 +3637,7 @@
     "keywords": "[bar chart, colorful, 3d, graph, data, information, visual representation, statistics, analysis, comparison, trends, patterns, insights, business, finance, marketing, research, science, technology, education, communication], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3552,6 +3649,7 @@
   },
   "MosquitoInAmber": {
     "name": "MosquitoInAmber",
+    "folder": "MosquitoInAmber",
     "label": "Mosquito In Amber",
     "description": "Mosquito in amber by Sketchfab, using transmission, IOR, and volume.",
     "tags": [
@@ -3582,12 +3680,12 @@
     "keywords": "[amber, gemstone, fossil, ancient, prehistoric, insect, trapped, resin, tree sap, natural, yellow, golden, transparent, translucent, fossilized, preserved, relic, historical, geological, scientific]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3600,6 +3698,7 @@
   },
   "MultiUVTest": {
     "name": "MultiUVTest",
+    "folder": "MultiUVTest",
     "label": "MultiUV Test",
     "description": "This model has two uv texture coordinates and tests a second set of texture coordinates.",
     "tags": [
@@ -3623,7 +3722,7 @@
     "keywords": "[glTF, 3D, graphics, technology, industry, standard, format, exchange, data, models, textures, animations, scenes, rendering, engines, platforms, applications, software, tools, development, community]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3635,8 +3734,9 @@
   },
   "MultipleScenes": {
     "name": "MultipleScenes",
+    "folder": "MultipleScenes",
     "label": "Multiple Scenes",
-    "description": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh. ",
+    "description": "A simple glTF asset with two scenes. Each scene consists of one node with one mesh.",
     "tags": [
       "Testing",
       "Core"
@@ -3656,7 +3756,7 @@
     "keywords": "[gray, square, background, solid, color, design, simple, minimal, aesthetic, clean, modern, neutral, tone, palette, monochromatic, texture, flat, visual, element]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3668,6 +3768,7 @@
   },
   "NegativeScaleTest": {
     "name": "NegativeScaleTest",
+    "folder": "NegativeScaleTest",
     "label": "Negative Scale Test",
     "description": "This model tests what happens when a glTF node has negative scaling.",
     "tags": [
@@ -3690,7 +3791,7 @@
     "keywords": "[blue, sample, back, front, scale, white, dark, metal, 1.0, -1.0, checkmark, green, color, colorless, text, box, button, square, circle]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3702,6 +3803,7 @@
   },
   "NodePerformanceTest": {
     "name": "NodePerformanceTest",
+    "folder": "NodePerformanceTest",
     "label": "NodePerformanceTest",
     "description": "Node, mesh, primitive and texture count performance test",
     "tags": [
@@ -3724,10 +3826,10 @@
       "pitch": 0,
       "distance": 0
     },
-    "keywords": "",
+    "keywords": "[Abstract Art, Pixelated Texture, Dot Composition, Monochromatic Design, Digital Illustration, Geometric Abstraction, Noise Pattern, Horizontal Band, White Dots, Textural Pattern, Grayscale Image, Artistic Texture, Minimalist Design, Pixel Graphic, Contemporary Art, Visual Noise, Dot Matrix, Digital Media, Abstract Graphics, Monochrome Art]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3737,8 +3839,47 @@
     ],
     "isOnRenderFidelity": false
   },
+  "NodeVisibilityTest": {
+    "name": "NodeVisibilityTest",
+    "folder": "NodeVisibilityTest",
+    "label": "NodeVisibilityTest",
+    "description": "A test for the KHR_node_visibility extension",
+    "tags": [
+      "Testing",
+      "Node Visibility"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodeVisibilityTest/glTF/NodeVisibilityTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodeVisibilityTest/glTF-Binary/NodeVisibilityTest.glb"
+    },
+    "extensionsUsed": [
+      "KHR_node_visibility"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodeVisibilityTest/glTF-Binary/NodeVisibilityTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/NodeVisibilityTest/glTF/NodeVisibilityTest.gltf",
+    "image": "/images/NodeVisibilityTest.webp",
+    "thumbnail": "/images/NodeVisibilityTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[Extension, Supported, Checkmark, Validation, Verification, Defaults, Handling, Properly, Software, Compatibility, Confirmation, Status, Configuration, System, Quality, Assurance, Symbol, Indication, Validation check, Default handling]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Marco Hutter (https://github.com/javagl/)"
+    ],
+    "isOnRenderFidelity": false
+  },
   "Normal-TangentMirrorTest": {
     "name": "Normal-TangentMirrorTest",
+    "folder": "NormalTangentMirrorTest",
     "label": "Normal-Tangent Mirror Test",
     "description": "Tests an engine's ability to load supplied tangent vectors for a normal map.",
     "tags": [
@@ -3761,7 +3902,7 @@
     "keywords": "[geometry, normal, v mirror, u mirror, front, sphere, cube, cylinder, cone, torus, prism, pyramid, sphere, hemisphere, cylinder, cone, torus, prism, pyramid]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3773,6 +3914,7 @@
   },
   "Normal-TangentTest": {
     "name": "Normal-TangentTest",
+    "folder": "NormalTangentTest",
     "label": "Normal-Tangent Test",
     "description": "Tests an engine's ability to automatically generate tangent vectors for a normal map.",
     "tags": [
@@ -3795,7 +3937,7 @@
     "keywords": "[3D, spheres, colors, shapes, sizes, textures, lighting, shadows, reflections, transparency, opacity, materials, environments, scenes, compositions, layouts, arrangements, patterns, gradients, animations]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3807,6 +3949,7 @@
   },
   "OrientationTest": {
     "name": "OrientationTest",
+    "folder": "OrientationTest",
     "label": "Orientation Test",
     "description": "Tests node translations and rotations.",
     "tags": [
@@ -3830,7 +3973,7 @@
     "keywords": "[blue, square, clock, frame, hands, numbers, background, gradient, shadow, light, dark, contrast, design, element, shape, color, texture, pattern, visual]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3842,6 +3985,7 @@
   },
   "PlaysetLightTest": {
     "name": "PlaysetLightTest",
+    "folder": "PlaysetLightTest",
     "label": "PlaysetLightTest",
     "description": "A 3D scene with IKEA assets",
     "tags": [
@@ -3861,12 +4005,18 @@
     "image": "/images/PlaysetLightTest.webp",
     "thumbnail": "/images/PlaysetLightTest.webp",
     "camera": {
-      "yaw": 0,
-      "pitch": 0,
+      "yaw": 90,
+      "pitch": 45,
       "distance": 0
     },
-    "keywords": "",
-    "license": [],
+    "keywords": "[White Sphere, Reflective Sphere, Ladder Structure, Gray Gradient Background, Horizontal Surface, Minimalist Artwork, Geometric Shapes, 3D Rendering, Abstract Composition, Glossy Texture, Digital Art Piece, Linear Arrangement, Monochromatic with Color Accent, White Object, Vertical Rungs, Isolated Elements, Modern Design Concept, Clean Scene, Simplified Illustration, Artistic Elements]",
+    "license": [
+      {
+        "license": "CC-BY-NC-SA-4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"
+      }
+    ],
     "authors": [
       "Inter IKEA Systems B.V."
     ],
@@ -3874,6 +4024,7 @@
   },
   "PointLightIntensityTest": {
     "name": "PointLightIntensityTest",
+    "folder": "PointLightIntensityTest",
     "label": "Point Light Intensity Test",
     "description": "This model tests KHR_lights_punctual intensity vs lamp color.",
     "tags": [
@@ -3902,7 +4053,7 @@
     "keywords": "[red, green, blue, white, gray, red + green + blue, color, light, spectrum, wavelength, hue, saturation, brightness, contrast, RGB, CMYK, HSL, HSV, color theory, color model]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -3914,6 +4065,7 @@
   },
   "PotOfCoals": {
     "name": "PotOfCoals",
+    "folder": "PotOfCoals",
     "label": "PotOfCoals",
     "description": "Burnt copper pot with a clearcoat, containing emissive hot coals.",
     "tags": [
@@ -3940,7 +4092,7 @@
     "keywords": "[glTF, 3D, graphics, technology, logo, branding, design, software, development, game, engine, rendering, animation, modeling, simulation, visualization, virtual, reality, augmented, reality, mixed, reality]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -3952,6 +4104,7 @@
   },
   "PotofCoalsAnimationPointer": {
     "name": "PotofCoalsAnimationPointer",
+    "folder": "PotOfCoalsAnimationPointer",
     "label": "Pot of Coals Animation Pointer",
     "description": "Burnt copper pot with a clearcoat, containing emissive hot coals, and animated heat refraction.",
     "tags": [
@@ -3989,7 +4142,7 @@
     "keywords": "[glTF, 3D, graphics, rendering, computer-aided design, CAD, software, technology, innovation, design, modeling, animation, simulation, visualization, engineering, architecture, product design, game development, virtual reality, augmented reality, mixed reality], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4001,6 +4154,7 @@
   },
   "PrimitiveModeNormalsTest": {
     "name": "PrimitiveModeNormalsTest",
+    "folder": "PrimitiveModeNormalsTest",
     "label": "Primitive Mode Normals Test",
     "description": "Tests rendering of points, lines, and triangles with and without normals.",
     "tags": [
@@ -4021,7 +4175,7 @@
     "keywords": "[materials, colors, spheres, balls, shading, light, dark, bright, pastel, neon, metallic, matte, glossy, rough, smooth, textured, patterned, striped, polka dots, chevron]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4033,6 +4187,7 @@
   },
   "RecursiveSkeletons": {
     "name": "RecursiveSkeletons",
+    "folder": "RecursiveSkeletons",
     "label": "Recursive Skeletons",
     "description": "Tests unusual skinning cases with reused meshes and recursive skeletons.",
     "tags": [
@@ -4056,7 +4211,7 @@
     "keywords": "[abstract, architecture, design, geometric, shapes, lines, curves, angles, perspectives, dimensions, space, form, structure, composition, visual, representation, concept, idea, creativity], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4068,6 +4223,7 @@
   },
   "RiggedFigure": {
     "name": "RiggedFigure",
+    "folder": "RiggedFigure",
     "label": "Rigged Figure",
     "description": "Animations. Skins.",
     "tags": [
@@ -4093,7 +4249,7 @@
     "keywords": "[3D, animation, avatar, character, design, digital, figure, game, graphics, human, illustration, model, person, rendering, robot, simulation, software, technology, virtual], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4105,6 +4261,7 @@
   },
   "RiggedSimple": {
     "name": "RiggedSimple",
+    "folder": "RiggedSimple",
     "label": "Rigged Simple",
     "description": "Animations. Skins. Start with this to test skinning.",
     "tags": [
@@ -4130,7 +4287,7 @@
     "keywords": "[green, shape, object, design, 3D, model, rendering, illustration, computer, graphics, art, creative, concept, idea, innovation, technology, digital, visual, representation], Animated",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4140,55 +4297,152 @@
     ],
     "isOnRenderFidelity": true
   },
-  "Skull": {
-    "name": "Skull",
-    "label": "Skull",
-    "description": "Human skull model with subsurface scattering.",
+  "ScatterAnemone": {
+    "name": "ScatterAnemone",
+    "folder": "ScatterAnemone",
+    "label": "ScatterAnemone",
+    "description": "Animated waving anemone with glowing fish, demonstrating the KHR_materials_scatter extension.",
     "tags": [
-      "Testing",
-      "XMP JSON",
-      "Diffuse Transmission",
+      "Showcase",
+      "Extension",
+      "Transmission",
       "Volume",
-      "Dispersion",
-      "Volume Scatter",
-      "IOR"
+      "Texture Transform",
+      "Lights",
+      "Scatter",
+      "Animation"
     ],
     "variants": {
-      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
-      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb"
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF/ScatterAnemone.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF-Binary/ScatterAnemone.glb"
     },
     "extensionsUsed": [
-      "KHR_xmp_json_ld",
-      "KHR_materials_diffuse_transmission",
+      "KHR_materials_transmission",
       "KHR_materials_volume",
-      "KHR_materials_dispersion",
-      "KHR_materials_volume_scatter",
-      "KHR_materials_ior"
+      "KHR_texture_transform",
+      "KHR_lights_punctual",
+      "KHR_materials_scatter"
     ],
-    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb",
-    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
-    "image": "/images/Skull.webp",
-    "thumbnail": "/images/Skull.webp",
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF-Binary/ScatterAnemone.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterAnemone/glTF/ScatterAnemone.gltf",
+    "image": "/images/ScatterAnemone.webp",
+    "thumbnail": "/images/ScatterAnemone.webp",
     "camera": {
-      "yaw": 45,
-      "pitch": 20,
-      "distance": 0
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 10
     },
-    "keywords": "[3D, skull, human, anatomy, medical, education, science, biology, health, medicine, illustration, graphic, design, art, visual, representation, model, skeletal, system, structure]",
+    "keywords": ", Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Eric Chadwick"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "ScatterPlant": {
+    "name": "ScatterPlant",
+    "folder": "ScatterPlant",
+    "label": "ScatterPlant",
+    "description": "Potted plant asset using the KHR_materials_scatter extension.",
+    "tags": [
+      "Showcase",
+      "Extension",
+      "Transmission",
+      "Emissive",
+      "Lights",
+      "Scatter",
+      "Animation"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterPlant/glTF/ScatterPlant.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterPlant/glTF-Binary/ScatterPlant.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_transmission",
+      "KHR_materials_emissive_strength",
+      "KHR_lights_punctual",
+      "KHR_materials_scatter"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterPlant/glTF-Binary/ScatterPlant.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterPlant/glTF/ScatterPlant.gltf",
+    "image": "/images/ScatterPlant.webp",
+    "thumbnail": "/images/ScatterPlant.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": ", Animated",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      {
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
     ],
     "authors": [
-      "Vladimir Petkovic"
+      "Eric Chadwick",
+      "Rico Cilliers"
+    ],
+    "isOnRenderFidelity": false
+  },
+  "ScatterTest": {
+    "name": "ScatterTest",
+    "folder": "ScatterTest",
+    "label": "ScatterTest",
+    "description": "Test model for KHR_materials_scatter extension.",
+    "tags": [
+      "Extension",
+      "Testing",
+      "Scatter",
+      "Transmission",
+      "Lights"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF/ScatterTest.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF-Binary/ScatterTest.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_scatter",
+      "KHR_materials_transmission",
+      "KHR_lights_punctual"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF-Binary/ScatterTest.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatterTest/glTF/ScatterTest.gltf",
+    "image": "/images/ScatterTest.webp",
+    "thumbnail": "/images/ScatterTest.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Eric Chadwick"
     ],
     "isOnRenderFidelity": false
   },
   "SciFiHelmet": {
     "name": "SciFiHelmet",
+    "folder": "SciFiHelmet",
     "label": "SciFi Helmet",
     "description": "Futuristic helmet",
     "tags": [
@@ -4209,12 +4463,12 @@
     "keywords": "[robot, head, futuristic, technology, sci-fi, mechanical, artificial intelligence, cyberpunk, android, machine, computer-generated, 3D model, digital art, illustration, concept art, design, engineering, innovation, robotics, automation]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4227,6 +4481,7 @@
   },
   "SheenChair": {
     "name": "SheenChair",
+    "folder": "SheenChair",
     "label": "Sheen Chair",
     "description": "Chair using material variants and sheen.",
     "tags": [
@@ -4257,7 +4512,7 @@
     "keywords": "[chair, furniture, design, interior, decoration, home, living, room, space, comfort, style, modern, contemporary, minimalist, sleek, clean, lines, curves, shape, form]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4269,6 +4524,7 @@
   },
   "SheenCloth": {
     "name": "SheenCloth",
+    "folder": "SheenCloth",
     "label": "Sheen Cloth",
     "description": "Fabric example using sheen.",
     "tags": [
@@ -4295,7 +4551,7 @@
     "keywords": "[blue cloth, fabric, patterned fabric, blue pattern, blue design, fabric design, blue and white, blue and white pattern, blue and white design, blue and white fabric, blue and white cloth, blue and white patterned fabric, blue and white patterned design, blue and white patterned cloth, blue and white patterned design, blue and white patterned fabric, blue and white patterned cloth, blue and white patterned design, blue and white patterned fabric, blue and white patterned cloth]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4307,6 +4563,7 @@
   },
   "SheenTestGrid": {
     "name": "SheenTestGrid",
+    "folder": "SheenTestGrid",
     "label": "SheenTestGrid",
     "description": "Grid of spheres over a checkered backdrop to test Sheen rendering.",
     "tags": [
@@ -4332,7 +4589,7 @@
     "keywords": "[checkerboard, blue, squares, gradient, color, pattern, design, texture, background, image, visual, representation, data, information, graphics, illustration, art, style, aesthetic, theme]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4344,6 +4601,7 @@
   },
   "SheenWoodLeatherSofa": {
     "name": "SheenWoodLeatherSofa",
+    "folder": "SheenWoodLeatherSofa",
     "label": "Sheen Wood Leather Sofa",
     "description": "Sofa asset using sheen, specular, and high-quality tiling textures.",
     "tags": [
@@ -4376,12 +4634,12 @@
     "keywords": "[sofa, couch, furniture, living room, comfortable, seating, relaxation, design, style, interior, decor, home, cozy, inviting, plush, pillows, upholstery, fabric, texture]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4394,12 +4652,13 @@
   },
   "SimpleInstancing": {
     "name": "SimpleInstancing",
+    "folder": "SimpleInstancing",
     "label": "Simple Instancing",
     "description": "A simple example for the EXT_mesh_gpu_instancing extension.",
     "tags": [
       "Extension",
       "Testing",
-      "Mesh Instancing"
+      "Mesh GPU Instancing"
     ],
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/SimpleInstancing/glTF/SimpleInstancing.gltf",
@@ -4420,7 +4679,7 @@
     "keywords": "[blank, gray, square, shape, color, background, design, element, simple, minimal, clean, modern, aesthetic, visual, art, graphic, illustration, template, placeholder]",
     "license": [
       {
-        "license": "Public Domain / CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4432,6 +4691,7 @@
   },
   "SimpleMaterial": {
     "name": "SimpleMaterial",
+    "folder": "SimpleMaterial",
     "label": "Simple Material",
     "description": "A simple glTF asset with a material",
     "tags": [
@@ -4453,7 +4713,7 @@
     "keywords": "[triangle, yellow, gray, background, design, shape, geometric, abstract, color, pattern, light, dark, contrast, visual, art, style, modern, simple, clean, minimalistic]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4465,6 +4725,7 @@
   },
   "SimpleMeshes": {
     "name": "SimpleMeshes",
+    "folder": "SimpleMeshes",
     "label": "Simple Meshes",
     "description": "A simple scene with two nodes, both containing the same mesh, namely a mesh with a single mesh.primitive with a single indexed triangle with multiple attributes (positions, normals and texture coordinates), but without a material",
     "tags": [
@@ -4486,7 +4747,7 @@
     "keywords": "[triangle, shape, gray, background, design, abstract, geometric, pattern, art, illustration, graphic, vector, line, minimal, simple, clean, modern, aesthetic, visual, composition]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4498,6 +4759,7 @@
   },
   "SimpleMorph": {
     "name": "SimpleMorph",
+    "folder": "SimpleMorph",
     "label": "Simple Morph",
     "description": "A triangle with a morph animation applied",
     "tags": [
@@ -4521,7 +4783,7 @@
     "keywords": "[triangle, shape, gray, background, design, abstract, geometric, pattern, light, dark, gradient, color, texture, minimal, simple, clean, modern, sleek, sophisticated, elegant], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4533,6 +4795,7 @@
   },
   "SimpleSkin": {
     "name": "SimpleSkin",
+    "folder": "SimpleSkin",
     "label": "Simple Skin",
     "description": "A simple example of vertex skinning in glTF",
     "tags": [
@@ -4555,7 +4818,7 @@
     "keywords": "[gray, shadow, 3d, cube, shape, abstract, design, art, geometric, form, light, dark, contrast, depth, perspective, illusion, optical, trick, visual, effect], Animated",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4567,6 +4830,7 @@
   },
   "SimpleSparseAccessor": {
     "name": "SimpleSparseAccessor",
+    "folder": "SimpleSparseAccessor",
     "label": "Simple Sparse Accessor",
     "description": "A simple mesh that uses sparse accessors",
     "tags": [
@@ -4588,7 +4852,7 @@
     "keywords": "[triangle, shape, design, graphic, illustration, art, abstract, geometry, form, structure, pattern, lines, angles, vertices, edges, points, space, composition, visual, representation]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4600,6 +4864,7 @@
   },
   "SimpleTexture": {
     "name": "SimpleTexture",
+    "folder": "SimpleTexture",
     "label": "Simple Texture",
     "description": "A simple glTF asset with a texture",
     "tags": [
@@ -4621,7 +4886,7 @@
     "keywords": "[gradient, color, square, rainbow, design, graphic, illustration, art, visual, pattern, texture, style, aesthetic, palette, hues, tones, shades, tints, colorspace]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4631,8 +4896,57 @@
     ],
     "isOnRenderFidelity": false
   },
+  "Skull": {
+    "name": "Skull",
+    "folder": "ScatteringSkull",
+    "label": "Skull",
+    "description": "Human skull model with subsurface scattering.",
+    "tags": [
+      "Testing",
+      "XMP JSON LD",
+      "Transmission",
+      "Volume",
+      "Dispersion",
+      "Scatter",
+      "IOR"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb"
+    },
+    "extensionsUsed": [
+      "KHR_xmp_json_ld",
+      "KHR_materials_transmission",
+      "KHR_materials_volume",
+      "KHR_materials_dispersion",
+      "KHR_materials_scatter",
+      "KHR_materials_ior"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/ScatteringSkull/glTF/ScatteringSkull.gltf",
+    "image": "/images/Skull.webp",
+    "thumbnail": "/images/Skull.webp",
+    "camera": {
+      "yaw": 45,
+      "pitch": 20,
+      "distance": 0
+    },
+    "keywords": "[3D, skull, human, anatomy, medical, education, science, biology, health, medicine, illustration, graphic, design, art, visual, representation, model, skeletal, system, structure]",
+    "license": [
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "Vladimir Petkovic"
+    ],
+    "isOnRenderFidelity": false
+  },
   "SpecGlossVsMetalRough": {
     "name": "SpecGlossVsMetalRough",
+    "folder": "SpecGlossVsMetalRough",
     "label": "SpecGlossVsMetalRough",
     "description": "Tests if the KHR_materials_pbrSpecularGlossiness extension is supported properly.",
     "tags": [
@@ -4659,7 +4973,7 @@
     "keywords": "[metallic, roughness, specular, glossiness, materials, KHR, pbr, rough, metallicRoughness, roughnessTexture, roughnessValue, metallicRoughnessTexture, metallicRoughnessValue, specularGlossiness, specularGlossinessTexture, specularGlossinessValue, KHR_materials_pbrSpecularGlossiness, KHR_materials_pbrSpecularGlossinessTexture, KHR_materials_pbrSpecularGlossinessValue]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4671,6 +4985,7 @@
   },
   "SpecularSilkPouf": {
     "name": "SpecularSilkPouf",
+    "folder": "SpecularSilkPouf",
     "label": "Specular Silk Pouf",
     "description": "Wayfair SpecularSilkPouf model using sheen and specular extensions.",
     "tags": [
@@ -4699,7 +5014,7 @@
     "keywords": "[3D rendering, abstract object, cylindrical shape, red color, smooth surface, no visible texture, no visible pattern, no visible features, plain appearance, simple design, minimalistic style, no background, no context, isolated object, no shadows, no lighting effects, no reflections, no transparency, solid color, uniform color]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4711,6 +5026,7 @@
   },
   "SpecularTest": {
     "name": "SpecularTest",
+    "folder": "SpecularTest",
     "label": "Specular Test",
     "description": "Tests if the KHR_materials_specular extension is supported correctly.",
     "tags": [
@@ -4737,7 +5053,7 @@
     "keywords": "[specular factor, specular texture, white color factor, white color texture, yellow color factor, yellow color texture, color factor, 1.0, color, texture, factor, white, yellow, specular, color factor 1.0, color texture, color factor greater than 1.0, color texture greater than 1.0, color factor equal to 1.0, color texture equal to 1.0]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4749,6 +5065,7 @@
   },
   "Sponza": {
     "name": "Sponza",
+    "folder": "Sponza",
     "label": "Sponza",
     "description": "Building interior, often used to test lighting.",
     "tags": [
@@ -4774,6 +5091,7 @@
   },
   "StainedGlassLamp": {
     "name": "StainedGlassLamp",
+    "folder": "StainedGlassLamp",
     "label": "Stained Glass Lamp",
     "description": "A real product, a Tiffany-style stained glass table lamp sold on the Wayfair website.",
     "tags": [
@@ -4809,7 +5127,7 @@
     "keywords": "[stained glass, lamp, table lamp, decorative lamp, colorful lamp, vintage lamp, antique lamp, unique lamp, handmade lamp, artistic lamp, colorful glass, glass art, lamp shade, lamp base, lamp design, lighting fixture, home decor, interior design, furniture, lighting]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4821,6 +5139,7 @@
   },
   "SunglassesKhronos": {
     "name": "SunglassesKhronos",
+    "folder": "SunglassesKhronos",
     "label": "Sunglasses Khronos",
     "description": "Sunglasses with Khronos logos and iridescent lenses",
     "tags": [
@@ -4855,7 +5174,7 @@
     "keywords": "[blue, sunglasses, reflection, sky, clouds, trees, landscape, nature, scenery, outdoors, travel, adventure, relaxation, leisure, vacation, summer, sun, warmth, serenity, tranquility]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -4867,6 +5186,7 @@
   },
   "Suzanne": {
     "name": "Suzanne",
+    "folder": "Suzanne",
     "label": "Suzanne",
     "description": "Blender's test model of the chimpanzee Suzanne.",
     "tags": [
@@ -4887,7 +5207,7 @@
     "keywords": "[3D, animation, art, cartoon, character, creature, design, digital, fantasy, illustration, model, monster, object, render, sculpture, style, toy, visual]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4899,6 +5219,7 @@
   },
   "TextureCoordinateTest": {
     "name": "TextureCoordinateTest",
+    "folder": "TextureCoordinateTest",
     "label": "Texture Coordinate Test",
     "description": "Shows how XYZ and UV positions relate to displayed geometry.",
     "tags": [
@@ -4922,7 +5243,7 @@
     "keywords": "[Top Left, Top Right, Bottom Left, Bottom Right, Checkerboard, Colorful, Squares, Grid, Pattern, Design, Visual, Art, Graphic, Illustration, Digital, Image, Picture, Display, Screen, Layout]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4934,6 +5255,7 @@
   },
   "TextureEncodingTest": {
     "name": "TextureEncodingTest",
+    "folder": "TextureEncodingTest",
     "label": "Texture Encoding Test",
     "description": "This asset tests that textures are sampled with correct transfer functions.",
     "tags": [
@@ -4956,7 +5278,7 @@
     "keywords": "[Base Color, Emissive, Metallic Roughness, Real Factors, Texture, Texture with custom gamma, Texture with custom ICC profile]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -4968,6 +5290,7 @@
   },
   "TextureLinearInterpolationTest": {
     "name": "TextureLinearInterpolationTest",
+    "folder": "TextureLinearInterpolationTest",
     "label": "Texture Linear Interpolation Test",
     "description": "Tests that linear texture interpolation is performed on linear values, i.e. after sRGB decoding.",
     "tags": [
@@ -4990,7 +5313,7 @@
     "keywords": "[real factors, texture, green circles, gray background, white squares, text boxes, image elements, visual components, graphic design, color palette, circle shapes, square shapes, text labels, image features, design elements, visual representation, graphic illustration, image composition, visual arrangement]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5002,6 +5325,7 @@
   },
   "TextureSettingsTest": {
     "name": "TextureSettingsTest",
+    "folder": "TextureSettingsTest",
     "label": "Texture Settings Test",
     "description": "Tests single/double-sided and various texturing modes.",
     "tags": [
@@ -5025,7 +5349,7 @@
     "keywords": "[blue, green, gray, white, black, checkmark, table, data, information, statistics, analysis, research, study, findings, results, conclusions, summary, overview, insights, trends, patterns]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -5037,6 +5361,7 @@
   },
   "TextureTransformMultiTest": {
     "name": "TextureTransformMultiTest",
+    "folder": "TextureTransformMultiTest",
     "label": "Texture Transform Multi Test",
     "description": "Tests if the KHR_texture_transform extension is supported for several inputs.",
     "tags": [
@@ -5067,7 +5392,7 @@
     "keywords": "[BaseColor, Emission, Normal, Metal/Rough, Occlusion, Unlit, Clearcoat, Clearcoat Rough, Clearcoat Normal, UV 0, UV 1, Sample, BaseColor UV 0, BaseColor UV 1, Emission UV 0, Emission UV 1, Normal UV 0, Normal UV 1, Metal/Rough UV 0, Metal/Rough UV 1]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -5079,6 +5404,7 @@
   },
   "TextureTransformTest": {
     "name": "TextureTransformTest",
+    "folder": "TextureTransformTest",
     "label": "Texture Transform Test",
     "description": "Tests if the KHR_texture_transform extension is supported for BaseColor.",
     "tags": [
@@ -5103,7 +5429,7 @@
     "keywords": "[checkmark, green, blue, teal, square, symbol, icon, design, graphic, illustration, logo, branding, identity, visual, communication, sign, mark, indicator, approval, validation]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5115,6 +5441,7 @@
   },
   "ToyCar": {
     "name": "ToyCar",
+    "folder": "ToyCar",
     "label": "Toy Car",
     "description": "Toy car example using transmission, clearcoat, and sheen.",
     "tags": [
@@ -5147,12 +5474,12 @@
     "keywords": "[car, vehicle, automobile, transportation, wheels, engine, speed, road, highway, traffic, driver, passenger, safety, fuel, exhaust, emissions, pollution, environment, technology, innovation]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5163,8 +5490,59 @@
     ],
     "isOnRenderFidelity": true
   },
+  "TrafficCone": {
+    "name": "TrafficCone",
+    "folder": "TrafficCone",
+    "label": "Traffic Cone",
+    "description": "A traffic cone demonstrating the KHR_materials_retroreflection extension, which simulates materials that reflect light back toward its source.",
+    "tags": [
+      "Extension",
+      "Specular",
+      "Retroreflection",
+      "Lights",
+      "Unlit"
+    ],
+    "variants": {
+      "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/TrafficCone/glTF/TrafficCone.gltf",
+      "glTF-Binary": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/TrafficCone/glTF-Binary/TrafficCone.glb"
+    },
+    "extensionsUsed": [
+      "KHR_materials_specular",
+      "KHR_materials_retroreflection",
+      "KHR_lights_punctual",
+      "KHR_materials_unlit"
+    ],
+    "downloadModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/TrafficCone/glTF-Binary/TrafficCone.glb",
+    "gltfModel": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/TrafficCone/glTF/TrafficCone.gltf",
+    "image": "/images/TrafficCone.webp",
+    "thumbnail": "/images/TrafficCone.webp",
+    "camera": {
+      "yaw": 0,
+      "pitch": 0,
+      "distance": 0
+    },
+    "keywords": "[traffic cone, construction cone, orange traffic cone, white stripe pattern, light bulb icon, yellow outline, minimalistic illustration, safety equipment, road barrier, warning device, digital graphic, concept art, industrial safety, conceptual imagery, visual metaphor, simple design, plain background, geometric shapes, symbolic representation, two-object composition]",
+    "license": [
+      {
+        "license": "CC-BY-4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      {
+        "license": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+      }
+    ],
+    "authors": [
+      "hinndia",
+      "Rob Tuytel"
+    ],
+    "isOnRenderFidelity": false
+  },
   "TransmissionOrderTest": {
     "name": "TransmissionOrderTest",
+    "folder": "TransmissionOrderTest",
     "label": "Transmission Order Test",
     "description": "This model tests the interactions between blend modes and transmission.",
     "tags": [
@@ -5193,12 +5571,12 @@
     "keywords": "[checkerboard, 3d, cube, abstract, pattern, design, graphic, illustration, background, texture, grid, squares, black, white, visual, art, style, modern, geometric]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       },
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5211,6 +5589,7 @@
   },
   "TransmissionRoughnessTest": {
     "name": "TransmissionRoughnessTest",
+    "folder": "TransmissionRoughnessTest",
     "label": "Transmission Roughness Test",
     "description": "Tests the interaction between roughness and IOR.",
     "tags": [
@@ -5241,7 +5620,7 @@
     "keywords": "[3d, art, artist, background, black, blue, brown, color, computer, dark, design, digital, drawing, graphic, green, illustration, image, light, model, orange, painting, pattern, picture, pixel, purple, red, render, scene, screen, shade, shadow, shape, shot, style, texture, view, visual, white, yellow]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -5253,6 +5632,7 @@
   },
   "TransmissionTest": {
     "name": "TransmissionTest",
+    "folder": "TransmissionTest",
     "label": "Transmission Test",
     "description": "Tests if the KHR_materials_transmission extension is supported properly.",
     "tags": [
@@ -5281,7 +5661,7 @@
     "keywords": "[transmission, rough transmission, metallic transmission, opacity, texture, capacity, checkered, 3d, cube, sphere, object, color, light, shadow, reflection, refraction, transparency, opacity, texture, pattern]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5293,6 +5673,7 @@
   },
   "TransmissionThinwallTestGrid": {
     "name": "TransmissionThinwallTestGrid",
+    "folder": "TransmissionThinwallTestGrid",
     "label": "TransmissionThinwallTestGrid",
     "description": "Grid of spheres over a checkered backdrop to test Thinfilm and IOR rendering.",
     "tags": [
@@ -5322,7 +5703,7 @@
     "keywords": "[transmission, refraction, thin wall, volume, index, light, physics, optics, science, technology, materials, properties, behavior, interaction, phenomenon, study, research, experiment, data, analysis]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5334,6 +5715,7 @@
   },
   "Triangle": {
     "name": "Triangle",
+    "folder": "Triangle",
     "label": "Triangle",
     "description": "A very simple glTF asset: The basic structure is the same as in 'Triangle Without Indices', but here, the mesh primitive describes an indexed geometry.",
     "tags": [
@@ -5355,7 +5737,7 @@
     "keywords": "[triangle, shape, gray, design, geometric, abstract, art, minimalist, modern, simple, clean, elegant, sophisticated, subtle, nuanced, refined, understated, precise, calculated]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5367,6 +5749,7 @@
   },
   "TriangleWithoutIndices": {
     "name": "TriangleWithoutIndices",
+    "folder": "TriangleWithoutIndices",
     "label": "Triangle Without Indices",
     "description": "The simplest possible glTF asset: A single scene with a single node and a single mesh with a single mesh.primitive with a single triangle with a single attribute, without indices and without a material",
     "tags": [
@@ -5388,7 +5771,7 @@
     "keywords": "[triangle, gray, background, shape, design, geometric, abstract, simple, minimalistic, clean, modern, aesthetic, visual, art, graphic, illustration, computer-generated, digital, creative]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5400,6 +5783,7 @@
   },
   "TwoSidedPlane": {
     "name": "TwoSidedPlane",
+    "folder": "TwoSidedPlane",
     "label": "Two Sided Plane",
     "description": "A plane having the two sided material parameter enabled.",
     "tags": [
@@ -5419,7 +5803,7 @@
     "keywords": "[wood, floor, wooden, plank, surface, texture, pattern, grain, brown, beige, light, dark, shadow, reflection, shine, glossy, matte, rough, smooth, natural]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5431,6 +5815,7 @@
   },
   "USDShaderBallforglTF": {
     "name": "USDShaderBallforglTF",
+    "folder": "USDShaderBallForGltf",
     "label": "USD Shader Ball for glTF",
     "description": "USD Shader Ball converted for glTF",
     "tags": [
@@ -5452,14 +5837,14 @@
     "image": "/images/USDShaderBallforglTF.webp",
     "thumbnail": "/images/USDShaderBallforglTF.webp",
     "camera": {
-      "yaw": 0,
-      "pitch": 0,
+      "yaw": -45,
+      "pitch": 20,
       "distance": 0
     },
-    "keywords": "",
+    "keywords": "[Reflective Sphere, Metallic Finish, Pedestal Base, Futuristic Sculpture, Chrome Material, Minimalist Form, Glossy Surface, Glass Reflection, Abstract Artwork, Modern Design, Shiny Texture, Circular Shape, Mounting Structure, Industrial Aesthetic, Three-Dimensional Object, Art Installation, Sleek Appearance, Contemporary Piece, Digital Rendering, High-Definition Model]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -5471,6 +5856,7 @@
   },
   "Unicode%E2%9D%A4%E2%99%BBTest": {
     "name": "Unicode❤♻Test",
+    "folder": "Unicode❤♻Test",
     "label": "Unicode❤♻Test",
     "description": "A sample with Unicode characters in file, material, and mesh names",
     "tags": [
@@ -5493,7 +5879,7 @@
     "keywords": "[heart,recycle,love,environment,eco-friendly,sustainability,green,earth,recycling,conservation,nature,eco,ecological,recycled,recyclable,recyclables,recycling symbol,recycling bin,recycling center]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5505,6 +5891,7 @@
   },
   "UnlitTest": {
     "name": "UnlitTest",
+    "folder": "UnlitTest",
     "label": "Unlit Test",
     "description": "Tests if the KHR_materials_unlit extension is supported properly.",
     "tags": [
@@ -5531,7 +5918,7 @@
     "keywords": "[orange, blue, shapes, octagon, graphic, design, color, contrast, visual, art, composition, balance, harmony, symmetry, asymmetry, pattern, texture, light, shadow, space]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -5543,6 +5930,7 @@
   },
   "VertexColorTest": {
     "name": "VertexColorTest",
+    "folder": "VertexColorTest",
     "label": "Vertex Color Test",
     "description": "Tests if vertex colors are supported.",
     "tags": [
@@ -5566,7 +5954,7 @@
     "keywords": "[Vertex Color, Test, Red, Green, Blue, Sample pass]",
     "license": [
       {
-        "license": "CC-BY 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }
@@ -5578,6 +5966,7 @@
   },
   "VirtualCity": {
     "name": "VirtualCity",
+    "folder": "VirtualCity",
     "label": "Virtual City",
     "description": "The 'Virtual City' model was graciously contributed by the folks at 3DRT.",
     "tags": [
@@ -5609,6 +5998,7 @@
   },
   "WaterBottle": {
     "name": "WaterBottle",
+    "folder": "WaterBottle",
     "label": "Water Bottle",
     "description": "Basic metal/roughness water bottle.",
     "tags": [
@@ -5632,7 +6022,7 @@
     "keywords": "[3D model, bottle, container, object, design, render, visualization, graphics, computer-aided, simulation, animation, virtual, digital, art, creation, modeling, software, technology, innovation, development]",
     "license": [
       {
-        "license": "CC0",
+        "license": "CC0-1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
         "icon": "https://licensebuttons.net/p/zero/1.0/88x31.png"
       }
@@ -5644,12 +6034,13 @@
   },
   "XmpMetadataRoundedCube": {
     "name": "XmpMetadataRoundedCube",
+    "folder": "XmpMetadataRoundedCube",
     "label": "Xmp Metadata Rounded Cube",
     "description": "Test of the XMP metadata extension - KHR_xmp_json_ld.",
     "tags": [
       "Extension",
       "Testing",
-      "XMP JSON"
+      "XMP JSON LD"
     ],
     "variants": {
       "glTF": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/refs/heads/main/Models/XmpMetadataRoundedCube/glTF/XmpMetadataRoundedCube.gltf",
@@ -5670,7 +6061,7 @@
     "keywords": "[3d, cube, shape, object, render, white, background, design, graphic, illustration, art, computer, generated, image, visual, representation, digital, model, animation]",
     "license": [
       {
-        "license": "CC-BY International 4.0",
+        "license": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "icon": "https://licensebuttons.net/l/by/4.0/88x31.png"
       }

@@ -2,14 +2,11 @@
 
 import { Fab, Tooltip } from '@mui/material';
 import EditNoteIcon from '@mui/icons-material/EditNote';
-import { useTheme } from "@mui/material/styles";
 
 const BugReportButton = () => {
-  const theme = useTheme();
-
   return (
     <>
-      <Tooltip title="Report an issue" slotProps={{tooltip: { sx: {color: `${theme.palette.text.primary}`, }}}}>
+      <Tooltip title="Report an issue" slotProps={{tooltip: { sx: {color: 'text.primary'}}}}>
         <Fab 
           color="primary" 
           href="https://github.com/KhronosGroup/glTF-Assets/issues"

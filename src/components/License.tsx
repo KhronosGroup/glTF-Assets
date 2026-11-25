@@ -1,7 +1,7 @@
 "use client"
 
 import { Tooltip, Box } from '@mui/material';
-import { SxProps, Theme, useTheme } from "@mui/material/styles";
+import { SxProps, Theme } from "@mui/material/styles";
 
 export type LicenseProps = {
     title: string, 
@@ -11,11 +11,9 @@ export type LicenseProps = {
 }
 
 const License = ({title, url, iconURL, sx} : LicenseProps) => {
-  const theme = useTheme();
-
   return (
     <Box sx={sx}>
-      <Tooltip title={title} slotProps={{tooltip: { sx: {color: `${theme.palette.text.primary}`, }}}}>
+      <Tooltip title={title} slotProps={{tooltip: { sx: {color: 'text.primary'}}}}>
         <a 
           color="primary" 
           href={url}

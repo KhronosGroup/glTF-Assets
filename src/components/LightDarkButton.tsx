@@ -11,11 +11,12 @@ export default function LightDarkButton({}) {
 
     const { mode, setMode } = useColorScheme();
 
+    React.useEffect(() => {
+        if(mode === 'system')
+            setMode(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }, [mode, setMode]);
 
     if(!mode) { return null; }    
-
-    if(mode === 'system')
-        setMode(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
     return (
         <IconButton

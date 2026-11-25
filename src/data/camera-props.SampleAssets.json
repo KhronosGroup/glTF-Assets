@@ -304,6 +304,10 @@
   "OrientationTest": {
     
   },
+  "PlaysetLightTest": {
+    "yaw": 90,
+    "pitch": 45
+  },
   "PointLightIntensityTest": {
     
   },
@@ -324,6 +328,9 @@
   },
   "RiggedSimple": {
     
+  },
+  "ScatterAnemone": {
+    "distance": 10
   },
   "Skull": {
     "yaw": 45,
@@ -413,6 +420,9 @@
     "yaw": 45,
     "pitch": 20
   },
+  "TrafficCone": {
+    "distance": 0
+  },
   "TransmissionOrderTest": {
     
   },
@@ -440,6 +450,10 @@
   },
   "UnlitTest": {
     
+  },
+  "USDShaderBallforglTF": {
+    "yaw": -45,
+    "pitch": 20
   },
   "VertexColorTest": {
     

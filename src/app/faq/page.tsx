@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import fs from 'fs';
-import Showdown from "showdown";
+import { marked } from "marked";
 
 export const metadata: Metadata = {
   title: "FAQ | Sample Assets | Khronos",
@@ -10,9 +10,7 @@ export const metadata: Metadata = {
 export default function About() {
     const string = fs.readFileSync("./src/data/FAQ.md", 'utf8')
 
-    const converter = new Showdown.Converter({ tables: true });
-    const text      = string;
-    const html      = converter.makeHtml(text);
+    const html = marked.parse(string, { async: false });
     
     return <div style={{margin: "auto", maxWidth: "1280px", padding:'2em 0'}} dangerouslySetInnerHTML={{ __html: html }} />
 }

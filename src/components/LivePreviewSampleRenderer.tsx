@@ -184,6 +184,7 @@ let active_animations = [0] as number[];
 const active_extensions = new Map<string, boolean>(supported_extensions);
 let active_variant = "glTF-Binary";
 let change_variant = false;
+let active_materialVariant = "default";
 let current_update_func_id = 0;
 let webgl2_wireframe_extensions : WEBGL_polygon_mode | null = null;
 
@@ -196,14 +197,17 @@ interface WEBGL_polygon_mode {
 
 const loadBlob = async (src: string) => {
   return fetch(src)
-  .then(response => response.blob())
+  .then(response => { 
+    if(!response.ok) 
+      throw new Error(`${response.status} ${src}`); 
+    return response.blob(); 
+  })
   .then(blob => { return blob.size; })
   .catch(err => { return 0; });
 }
 
 export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsCallback}: LivePreviewSampleRendererProps) {
 
-  const [ktxLoaded, setKTXLoaded] = React.useState(false);
   const [dracoLoaded, setDracoLoaded] = React.useState(false);
   const [showOptions, setShowOptions] = React.useState(false);
   const [debugOutput, setDebugOutput] = React.useState("None");
@@ -211,6 +215,8 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
   const [animations, setAnimations] = React.useState<Array<string>>([]);
   const [selectedAnimation, setSelectedAnimation] = React.useState("");
   const [modelVariants, setModelVariants] = React.useState(src.endsWith(".glb") ? 'glTF-Binary' : 'glTF');
+  const [materialVariants, setMaterialVariants] = React.useState<Array<string>>([]);
+  const [selectedMaterialVariant, setSelectedMaterialVariant] = React.useState("default");
   const [isModelLoaded, setIsModelLoaded] = React.useState(false);
   const [hasWireframeExtensions, setHasWireframeExtension] = React.useState(false);
 
@@ -265,8 +271,9 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
   React.useEffect(() => {
     
-    if((ktxLoaded && dracoLoaded) == false)
+    if(!dracoLoaded)
       return;
+
     if(canvasRef == null || canvasRef.current == null) { return; }
     const canvas = canvasRef.current;
     const webGl2Context = canvas.getContext('webgl2') as WebGL2RenderingContext;
@@ -279,6 +286,20 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
       const {GltfView, GltfState} = await import('@khronosgroup/gltf-viewer/dist/gltf-viewer.module.js');
       const view = new GltfView(webGl2Context);
+
+      // Polygon mode is global GL state: draw the fullscreen tonemap quad filled even in wireframe mode.
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const renderer = (view as any).renderer;
+      const origTonemapPass = renderer.tonemapPass.bind(renderer);
+      renderer.tonemapPass = (...args: unknown[]) => {
+        const ext = webgl2_wireframe_extensions;
+        if(ext)
+          ext.polygonModeWEBGL(webGl2Context.FRONT_AND_BACK, ext.FILL_WEBGL);
+        origTonemapPass(...args);
+        if(ext && active_debugOutput == 'Wireframe')
+          ext.polygonModeWEBGL(webGl2Context.FRONT_AND_BACK, ext.LINE_WEBGL);
+      };
+
       const state = view.createState();
       state.sceneIndex = 0;
       state.animationIndices = [0, 1, 2];
@@ -286,6 +307,15 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
       const resourceLoader = view.createResourceLoader();
       state.gltf = await resourceLoader.loadGltf(src);
+
+      // KHR_materials_variants: names come from the loaded glTF, "default" means the base materials.
+      const refreshMaterialVariants = (gltf: typeof state.gltf) => {
+        const names: string[] = gltf.extensions?.KHR_materials_variants?.variants?.map((v: { name: string }) => v.name) ?? [];
+        active_materialVariant = "default";
+        setMaterialVariants(names);
+        setSelectedMaterialVariant("default");
+      };
+      refreshMaterialVariants(state.gltf);
 
       const animation_names = [] as string[];
       for(const animation of state.gltf.animations)
@@ -351,7 +381,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
         // Face and Triangle count. Copied code from gltf-sample-renderer
         let numberOfVertices = 0;
-        const nodes = scene.gatherNodes(state.gltf);
+        const { nodes } = scene.gatherNodes(state.gltf, state.renderingParameters.enabledExtensions);
         const uniqueAccessors = new Set<number>();
         for(const node of nodes)
         {
@@ -397,7 +427,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
          lut_ggx_file: `${basePath}/assets/lut_ggx.png`, 
          lut_charlie_file: `${basePath}/assets/lut_charlie.png`,
          lut_sheen_E_file: `${basePath}/assets/lut_sheen_E.png`
-      }).then((environment) => {
+      }).then((environment: typeof state.environment) => {
         state.environment = environment;
       })
       //state.renderingParameters.iblIntensity = Math.pow(10, 0.1/*intensity*/);
@@ -412,14 +442,16 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
       state.renderingParameters.debugOutput = debugOutput;
       setIsModelLoaded(true);
+      const defaultToneMap = state.renderingParameters.toneMap;
+      const defaultRenderEnvironmentMap = state.renderingParameters.renderEnvironmentMap;
       const update = () =>
-      { 
+      {
         if(change_variant)
         {
           resourceLoader.loadGltf(variants[active_variant])
-            .then(res => { console.log("Reload gltf"); state.gltf = res;})
-            .then(_ => {return customGatherStatistics(state, view, variants[active_variant], active_variant)})
-            .then(res => { statsCallback(res); setIsModelLoaded(true);});          
+            .then((res: typeof state.gltf) => { console.log("Reload gltf"); state.gltf = res; refreshMaterialVariants(res);})
+            .then(() => {return customGatherStatistics(state, view, variants[active_variant], active_variant)})
+            .then((res: Stats) => { statsCallback(res); setIsModelLoaded(true);});          
           change_variant = false;
         }
         // Rendering Properties
@@ -428,13 +460,18 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
           if(webgl2_wireframe_extensions)
             webgl2_wireframe_extensions.polygonModeWEBGL(webGl2Context.FRONT_AND_BACK, webgl2_wireframe_extensions.LINE_WEBGL);
           state.renderingParameters.debugOutput = 'Base Color';
+          state.renderingParameters.toneMap = GltfState.ToneMaps.NONE;
+          state.renderingParameters.renderEnvironmentMap = false;
         }
         else
         {
           if(webgl2_wireframe_extensions)
             webgl2_wireframe_extensions.polygonModeWEBGL(webGl2Context.FRONT_AND_BACK, webgl2_wireframe_extensions.FILL_WEBGL);
           state.renderingParameters.debugOutput = active_debugOutput;
+          state.renderingParameters.toneMap = defaultToneMap;
+          state.renderingParameters.renderEnvironmentMap = defaultRenderEnvironmentMap;
         }
+        state.variant = active_materialVariant;
         state.animationIndices = active_animations;
         active_extensions.forEach((value, key) => {
           if (key in state.renderingParameters.enabledExtensions) {
@@ -459,7 +496,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
       window.requestAnimationFrame(update);
     };
     load();
-  }, [src, ktxLoaded, dracoLoaded])
+  }, [src, dracoLoaded])
 
   React.useEffect(() => {
     if(canvasRef == null || canvasRef.current == null) { return; }
@@ -510,9 +547,6 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
   React.useEffect(() => {
     const isDracoLoaded = !!document.querySelector('script[src="https://www.gstatic.com/draco/v1/decoders/draco_decoder_gltf.js"]')
-    const isKTXLoaded = !!document.querySelector(`script[src="${basePath}/libs/libktx.js"]`)
-
-    setKTXLoaded(isKTXLoaded);
     setDracoLoaded(isDracoLoaded);
 
     const canvas = canvasRef.current;
@@ -539,7 +573,6 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
     return (
       <Box ref={canvasContainerRef}>
         <Script src="https://www.gstatic.com/draco/v1/decoders/draco_decoder_gltf.js" strategy="afterInteractive" onLoad={() => { console.log("LOADED Draco"); setDracoLoaded(true);}} onReady={() => { console.log("READY Draco");}} />
-        <Script src={`${basePath}/libs/libktx.js`} strategy="afterInteractive" onLoad={() => { console.log("LOADED KTX"); setKTXLoaded(true); }} onReady={() => { console.log("READY KTX");}}/>
         <Box ref={canvasContainerWrapperRef} sx={{textAlign: "center", margin: "auto", position: 'relative', minHeight: '50vh'}}>
           <canvas ref={canvasRef} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} style={{display: isModelLoaded? 'block' : 'none', touchAction: 'none', overscrollBehavior: 'contain', width: '100%'}}/>
           <img ref={imgRef} src={imgSrc} style={{display: isModelLoaded? 'none' : 'block', backgroundColor: 'transparent', position: 'absolute', left: 0, top: 0, zIndex: 10, objectFit: 'cover', width:"100%", height:'100%'}} alt="Asset Preview"/>
@@ -548,13 +581,13 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
           </Box>}
 
           {/* Button in bottom left */}
-          {isModelLoaded && <Box position="absolute" bottom={{sm: 20, xs: 10}} left={{sm: 20, xs: 10}} zIndex={10}>
+          {isModelLoaded && <Box sx={{position: "absolute", bottom: {sm: 20, xs: 10}, left: {sm: 20, xs: 10}, zIndex: 10}}>
             <IconButton aria-label="Show/Hide Asset Inspector" color="default" onClick={() => setShowOptions(!showOptions)} sx={{ backgroundColor: '#212121', color: 'white', '&:hover': { backgroundColor: 'gray', }, width: 32, height: 32, borderRadius: '50%', }}>
               <MenuIcon />
             </IconButton>
           </Box>}
           {/* Button in bottom right */}
-          {isModelLoaded && <Box position="absolute" bottom={{sm: 20, xs: 10}} right={{sm: 20, xs: 10}} zIndex={10}>
+          {isModelLoaded && <Box sx={{position: "absolute", bottom: {sm: 20, xs: 10}, right: {sm: 20, xs: 10}, zIndex: 10}}>
             <IconButton aria-label="Fullscreen Button" color="default" onClick={() => requestFullScreen()} sx={{ backgroundColor: "#212121", color: 'white', '&:hover': { backgroundColor: 'gray', }, width: 32, height: 32, borderRadius: '50%', }}>
               <FullscreenIcon />
             </IconButton>
@@ -579,7 +612,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
               
             >
               <Typography variant="h6">Inspection</Typography>
-              <Box display={extensions.size>0? 'flex':'none'} flexDirection='column' alignItems='flex-start' width='100%' sx={{overflowWrap:"anywhere", overflowY:'scroll', overflowX:'hidden'}} >
+              <Box sx={{display: extensions.size>0? 'flex':'none', flexDirection: 'column', alignItems: 'flex-start', width: '100%', overflowWrap:"anywhere", overflowY:'scroll', overflowX:'hidden'}} >
                 <Typography variant="subtitle2" gutterBottom>
                   Extensions
                 </Typography>
@@ -602,7 +635,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
                 ))}
               </Box>
 
-              <Box display={animations.length>0? 'flex':'none'} flexDirection='column' alignItems='flex-start' mb={1} mt={2} width='100%'>
+              <Box sx={{display: animations.length>0? 'flex':'none', flexDirection: 'column', alignItems: 'flex-start', mb: 1, mt: 2, width: '100%'}}>
                 <Typography variant="subtitle1" gutterBottom>
                   Animations:
                 </Typography>
@@ -622,7 +655,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
                 </ToggleButtonGroup>
                 
               </Box>
-              <Box width='100%' mt={2}>
+              <Box sx={{width: '100%', mt: 2}}>
                 <FormControl fullWidth size="small">
                   <InputLabel id="debug-output-label">Debug Visualization</InputLabel>
                   <Select
@@ -642,7 +675,28 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
                   </Select>
                 </FormControl>
               </Box>
-              <Box width='100%' mt={2}>
+              <Box sx={{display: materialVariants.length>0? 'block':'none', width: '100%', mt: 2}}>
+                <FormControl fullWidth size="small">
+                  <InputLabel id="material-variants-label">Material Variants</InputLabel>
+                  <Select
+                    labelId="material-variants-label"
+                    value={selectedMaterialVariant}
+                    label="Material Variants"
+                    onChange={(e) => { active_materialVariant = e.target.value; setSelectedMaterialVariant(e.target.value); }}
+                    MenuProps={{
+                      disableScrollLock: true, // disables body padding-right
+                    }}
+                  >
+                    <MenuItem value="default">Default</MenuItem>
+                    {materialVariants.map((name) => (
+                      <MenuItem key={name} value={name}>
+                        {name}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              </Box>
+              <Box sx={{width: '100%', mt: 2}}>
                 <FormControl fullWidth size="small">
                   <InputLabel id="variants-label">Format Variants</InputLabel>
                   <Select

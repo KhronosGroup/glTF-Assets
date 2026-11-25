@@ -30,6 +30,7 @@ This SampleAssets website contains high quality examples of glTF content. In par
 
 ## Contributors
 <br>
+
 - Anastasios Gkaravelis, Phasmatic
 - Nikolaos Vitsas, Phasmatic
 - Andreas Vasilakis, Phasmatic

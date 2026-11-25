@@ -12,8 +12,8 @@ export default function Footer() {
 
     return (
       <footer style={{background:bgColor}}>
-        <Box display='flex' flexDirection='column' pl={{xs:2, sm:3}} pr={{xs:2, sm:3}} style={{width: "100%", maxWidth: "1280px", margin: 'auto', background:bgColor}}>
-          <Box flex={1} width={"100%"} sx={{margin: "auto", pt:"20px"}} display='flex' justifyContent='flex-start'>
+        <Box sx={{display: 'flex', flexDirection: 'column', pl: {xs:2, sm:3}, pr: {xs:2, sm:3}}} style={{width: "100%", maxWidth: "1280px", margin: 'auto', background:bgColor}}>
+          <Box sx={{flex: 1, width: "100%", margin: "auto", pt:"20px", display: 'flex', justifyContent: 'flex-start'}}>
             <a href="https://www.khronos.org/" aria-label='Link to Khronos website'>
               <img
                 style={{width: "100%", maxWidth: "250px", transform: 'translate(-5%, 0px)'}}
@@ -23,20 +23,20 @@ export default function Footer() {
               />
             </a>
           </Box>
-          <Box pt={1} sx={{width: "100%", margin: 'auto'}} flex={1} display={{ xs: 'none', sm: 'flex' }} justifyContent='flex-start' margin={"auto"}>
-            <Link href="https://www.khronos.org/legal/privacy" color="textPrimary" underline='always' fontSize={"12px"} p={1} pl={0} target="_blank" rel="noopener" sx={{color:fontColor}} aria-label='Link to Khronos privacy policy'>Privacy Policy</Link>
-            <Link href="https://www.khronos.org/legal/" color="textPrimary" underline='always' fontSize={"12px"} p={1} target="_blank" rel="noopener" sx={{color:fontColor}} aria-label='Link to Khronos legal notices'>Legal Notices</Link>
-            <Link href="https://www.khronos.org/about/code-of-conduct" color="textPrimary" underline='always' fontSize={"12px"} p={1} target="_blank" rel="noopener" sx={{color:fontColor}} aria-label='Link to Khronos code of conduct'>Code of Conduct</Link>
-            <Link href="https://www.khronos.org/about/diversity-and-inclusion/" color="textPrimary" underline='always' fontSize={"12px"} p={1} target="_blank" rel="noopener" sx={{color:fontColor}} aria-label='Link to Khronos diversity and inclusion'>Diversity and Inclusion</Link>
-            <Link href="https://www.khronos.org/legal/trademarks/" color="textPrimary" underline='always' fontSize={"12px"} p={1} target="_blank" rel="noopener" sx={{color:fontColor}} aria-label='Link to Khronos trademarks'>Trademarks</Link>
+          <Box sx={{pt: 1, width: "100%", margin: 'auto', flex: 1, display: { xs: 'none', sm: 'flex' }, justifyContent: 'flex-start'}}>
+            <Link href="https://www.khronos.org/legal/privacy" color="textPrimary" underline='always' target="_blank" rel="noopener" sx={{color:fontColor, fontSize: "12px", p: 1, pl: 0}} aria-label='Link to Khronos privacy policy'>Privacy Policy</Link>
+            <Link href="https://www.khronos.org/legal/" color="textPrimary" underline='always' target="_blank" rel="noopener" sx={{color:fontColor, fontSize: "12px", p: 1}} aria-label='Link to Khronos legal notices'>Legal Notices</Link>
+            <Link href="https://www.khronos.org/about/code-of-conduct" color="textPrimary" underline='always' target="_blank" rel="noopener" sx={{color:fontColor, fontSize: "12px", p: 1}} aria-label='Link to Khronos code of conduct'>Code of Conduct</Link>
+            <Link href="https://www.khronos.org/about/diversity-and-inclusion/" color="textPrimary" underline='always' target="_blank" rel="noopener" sx={{color:fontColor, fontSize: "12px", p: 1}} aria-label='Link to Khronos diversity and inclusion'>Diversity and Inclusion</Link>
+            <Link href="https://www.khronos.org/legal/trademarks/" color="textPrimary" underline='always' target="_blank" rel="noopener" sx={{color:fontColor, fontSize: "12px", p: 1}} aria-label='Link to Khronos trademarks'>Trademarks</Link>
           </Box>
         </Box>
-        <Box display='flex' pl={{xs:2, sm:3}} pr={{xs:2, sm:3}} style={{width: "100%", maxWidth: "1280px", margin: 'auto', justifyContent: 'space-between', flexWrap: 'wrap', background:bgColor}}>
-          <Box pt={1} pb={1}>
-            <Typography color={fontColor} pb={1} fontSize={"12px"}>
+        <Box sx={{display: 'flex', pl: {xs:2, sm:3}, pr: {xs:2, sm:3}}} style={{width: "100%", maxWidth: "1280px", margin: 'auto', justifyContent: 'space-between', flexWrap: 'wrap', background:bgColor}}>
+          <Box sx={{pt: 1, pb: 1}}>
+            <Typography sx={{color: fontColor, pb: 1, fontSize: "12px"}}>
               Copyright {new Date().getFullYear()} - The Khronos® Group Inc.  All rights reserved.
             </Typography>
-            <Typography color={fontColor} fontSize={"12px"}>
+            <Typography sx={{color: fontColor, fontSize: "12px"}}>
               Khronos® is a registered trademark, and glTF™ and 3D Commerce™ are trademarks of The Khronos Group Inc.  All other product names, trademarks, and/or company names are used solely for identification and belong to their respective owners.
             </Typography>
           </Box>

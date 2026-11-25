@@ -15,6 +15,13 @@ export async function generateStaticParams() {
     }))
 }
 
+// Next.js 16 passes decoded route params (e.g. "BoxTexturednot2^N"), while some
+// keys in the model index are URL-encoded (e.g. "BoxTexturednot2%5EN").
+function getModel(name: string): ModelType {
+  const index = models as Record<string, ModelType>;
+  return index[name] ?? index[encodeURIComponent(name)] ?? Object.values(index).find(m => m.name === name);
+}
+
 type Props = {
   params: Promise<{ name: string }>
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
@@ -25,7 +32,7 @@ export async function generateMetadata( { params, searchParams }: Props, parent:
   const {name} = await params;
  
   // fetch data
-  const model = (models as Record<string, ModelType>)[name];
+  const model = getModel(name);
  
   // optionally access and extend (rather than replace) parent metadata
   const previousImages = (await parent).openGraph?.images || []
@@ -58,7 +65,7 @@ export async function generateMetadata( { params, searchParams }: Props, parent:
 export default async function Page({params}: { params: Promise<{ name: string }> }) {
   const { name } = await params;
 
-  const model = (models as Record<string, ModelType>)[name];
+  const model = getModel(name);
 
   const tags = new Set(model.tags);
   const modelList = Object.values(models as Record<string, ModelType>).map(m => { 
@@ -69,25 +76,15 @@ export default async function Page({params}: { params: Promise<{ name: string }>
     return b.score - a.score;
   });
 
-  const showcaseModels : Array<ModelType> = [
-    showcaseList[0],
-    showcaseList[1],
-    showcaseList[2]
-  ];
+  const showcaseModels : Array<ModelType> = showcaseList.slice(0, 3);
+  const showcaseNames = new Set(showcaseModels.map(m => m.name));
 
   const relevantList = modelList
-  .filter(m => m.name !== name && m.name !== showcaseList[0].name && m.name !== showcaseList[1].name && m.name !== showcaseList[2].name)
+  .filter(m => m.name !== name && !showcaseNames.has(m.name))
   .sort((a, b) => {
     return b.score - a.score;
   });
-  const suggestedModels : Array<ModelType> = [
-    relevantList[0],
-    relevantList[1],
-    relevantList[2],
-    relevantList[3],
-    relevantList[4],
-    relevantList[5]
-  ];
+  const suggestedModels : Array<ModelType> = relevantList.slice(0, 6);
   
   return (
     <div className={styles.page}>

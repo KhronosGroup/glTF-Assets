@@ -424,5 +424,29 @@
   },
   "CompareIridescence": {
     "keywords": "[glTF, logo, branding, design, graphics, visual identity, 3D modeling, computer graphics, game development, virtual reality, augmented reality, mixed reality, interactive experiences, digital art, creative technology, innovation, design thinking, problem-solving, critical thinking, collaboration, communication]."
+  },
+  "CubeVisibility": {
+    "keywords": "[Green Cube]"
+  },
+  "LightVisibility": {
+    "keywords": "[light green circle, muted gray gradient background, soft focus blur effect, minimalist composition, pale green hue, blurred circular shape, neutral color palette, centered geometric element, abstract image, subtle contrast, digital art piece, light gray rectangle frame, out of focus circle form, diffused glow effect, modern aesthetic design, minimalistic visual style, soft-edged abstraction, muted tone backdrop, geometric composition, aesthetic simplicity]"
+  },
+  "MeshoptCubeTest": {
+    "keywords": "[uncompressed, compressed, attr8, attr16, attr32, interleaved, separate, indices, triangles, animated rotation, v0, v1, attributes, filters, data compression, geometry representation, vertex storage, texture format, rendering pipeline, attribute layout]"
+  },
+  "NodePerformanceTest": {
+    "keywords": "[Abstract Art, Pixelated Texture, Dot Composition, Monochromatic Design, Digital Illustration, Geometric Abstraction, Noise Pattern, Horizontal Band, White Dots, Textural Pattern, Grayscale Image, Artistic Texture, Minimalist Design, Pixel Graphic, Contemporary Art, Visual Noise, Dot Matrix, Digital Media, Abstract Graphics, Monochrome Art]"
+  },
+  "NodeVisibilityTest": {
+    "keywords": "[Extension, Supported, Checkmark, Validation, Verification, Defaults, Handling, Properly, Software, Compatibility, Confirmation, Status, Configuration, System, Quality, Assurance, Symbol, Indication, Validation check, Default handling]"
+  },
+  "PlaysetLightTest": {
+    "keywords": "[White Sphere, Reflective Sphere, Ladder Structure, Gray Gradient Background, Horizontal Surface, Minimalist Artwork, Geometric Shapes, 3D Rendering, Abstract Composition, Glossy Texture, Digital Art Piece, Linear Arrangement, Monochromatic with Color Accent, White Object, Vertical Rungs, Isolated Elements, Modern Design Concept, Clean Scene, Simplified Illustration, Artistic Elements]"
+  },
+  "TrafficCone": {
+    "keywords": "[traffic cone, construction cone, orange traffic cone, white stripe pattern, light bulb icon, yellow outline, minimalistic illustration, safety equipment, road barrier, warning device, digital graphic, concept art, industrial safety, conceptual imagery, visual metaphor, simple design, plain background, geometric shapes, symbolic representation, two-object composition]"
+  },
+  "USDShaderBallforglTF": {
+    "keywords": "[Reflective Sphere, Metallic Finish, Pedestal Base, Futuristic Sculpture, Chrome Material, Minimalist Form, Glossy Surface, Glass Reflection, Abstract Artwork, Modern Design, Shiny Texture, Circular Shape, Mounting Structure, Industrial Aesthetic, Three-Dimensional Object, Art Installation, Sleek Appearance, Contemporary Piece, Digital Rendering, High-Definition Model]"
   }
 }

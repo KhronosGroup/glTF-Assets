@@ -1,5 +1,6 @@
 export type ModelType = {
-  name: string,  
+  name: string,
+  folder: string,  
   label: string,
   description: string,
   tags: Array<string>,

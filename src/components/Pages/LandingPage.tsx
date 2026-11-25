@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { Box, Chip, Typography, Grid2 as Grid } from "@mui/material";
+import { Box, Chip, Typography, Grid } from "@mui/material";
 import Search from "@/components/Search";
 import Fuse from 'fuse.js'
 import ModelCard from "@/components/ModelCard";
@@ -13,7 +13,6 @@ import Tooltip from '@mui/material/Tooltip';
 import Image from 'next/image'
 import { basePath } from '@/lib/paths';
 import { ModelType } from '@/lib/types';
-import { useTheme } from "@mui/material/styles";
 
 type LandingPageProps = {
   models: Array<ModelType>
@@ -24,6 +23,14 @@ const tags = tagsFile.tags
   .sort((a, b) => b.name.length - a.name.length)
   .sort((a,b) => a.selected && b.selected? 0 : a.selected? -1 : b.selected? 1 : 0);
 
+const searchOptions = {
+  includeScore: true,
+  shouldSort: true,
+  ignoreLocation: true,
+  threshold: 0.25,
+  // Search in `description`, `name` and `keywords`
+  keys: ['description', 'name', 'keywords'],
+}
 export default function LandingPage({models}: LandingPageProps) {
 
   const scrollWrapperRef = React.useRef<HTMLDivElement>(null);
@@ -34,7 +41,6 @@ export default function LandingPage({models}: LandingPageProps) {
   const [tagsExpanded, setTagsExpanded] = React.useState(false);
   const [isOverflown, setOverflown] = React.useState(false);
 
-  const theme = useTheme();
 
   const handleSearchValueChange = (e:string) => {
     setSearchValue(e);
@@ -104,28 +110,20 @@ export default function LandingPage({models}: LandingPageProps) {
   }
 
   const otherChips = (
-    <Box ref={mainContainerRef} width={"100%"} justifyContent={"center"} display={"flex"} flexWrap={"nowrap"} flexDirection={"row"}>
-      <Box ref={tagContainerRef} display={"flex"} flexWrap={"nowrap"} flexDirection={"row"}>
-        <Box display={"flex"} flexWrap={"wrap"} flexDirection={"row"} height={tagsExpanded ? "100%" : 37} justifyContent={"flex-start"} style={{overflow: "hidden" }}>
+    <Box ref={mainContainerRef} sx={{width: "100%", justifyContent: "center", display: "flex", flexWrap: "nowrap", flexDirection: "row"}}>
+      <Box ref={tagContainerRef} sx={{display: "flex", flexWrap: "nowrap", flexDirection: "row"}}>
+        <Box sx={{display: "flex", flexWrap: "wrap", flexDirection: "row", height: tagsExpanded ? "100%" : 37, justifyContent: "flex-start"}} style={{overflow: "hidden" }}>
           {selectedTags.map((t,i) => {return (<Chip key={t.name} sx={{margin: "5px 5px", fontWeight: 'bold'}} label={t.name} color={t.selected? "success" : "default"} clickable onClick={() => handleChipSelection(t)} onDelete={t.selected? () => handleChipDelete(t) : undefined}/>)})}
         </Box>
-        <Box display={"flex"} alignItems={"flex-start"} sx={{position: "relative"}}>
-          {!tagsExpanded && isOverflown && <Tooltip enterTouchDelay={1} placement="top" title={<p style={{ color: `${theme.palette.text.primary}`, fontSize: "16px" }}>Click for more tags</p>}><ExpandMoreIcon onClick={() => setTagsExpanded(true)}/></Tooltip>}
-          { tagsExpanded && isOverflown && <Tooltip enterTouchDelay={1} placement="top" title={<p style={{ color: `${theme.palette.text.primary}`, fontSize: "16px" }}>Click for less tags</p>}><ExpandLessIcon onClick={() => setTagsExpanded(false)}/></Tooltip>}
+        <Box sx={{display: "flex", alignItems: "flex-start", position: "relative"}}>
+          {!tagsExpanded && isOverflown && <Tooltip enterTouchDelay={1} placement="top" title={<Box component="p" sx={{ color: "text.primary", fontSize: "16px" }}>Click for more tags</Box>}><ExpandMoreIcon onClick={() => setTagsExpanded(true)}/></Tooltip>}
+          { tagsExpanded && isOverflown && <Tooltip enterTouchDelay={1} placement="top" title={<Box component="p" sx={{ color: "text.primary", fontSize: "16px" }}>Click for less tags</Box>}><ExpandLessIcon onClick={() => setTagsExpanded(false)}/></Tooltip>}
         </Box>
       </Box>
     </Box>
     )
 
-  const options = {
-    includeScore: true,
-    shouldSort: true,
-    ignoreLocation: true,
-    threshold: 0.25,
-    // Search in `description`, `name` and `keywords`
-    keys: ['description', 'name', 'keywords'],
-  }
-  const fuse = new Fuse(Object.values(models), options)
+  const fuse = React.useMemo(() => new Fuse(Object.values(models), searchOptions), [models])
 
   const tagsArray = selectedTags.filter(e => e.selected == true).map(e => e.name);
   const result = ((searchValue === "") ? Object.values(models).map(e => {return {item: e}}) : fuse.search(searchValue)).filter((e,i) => {
@@ -147,13 +145,13 @@ export default function LandingPage({models}: LandingPageProps) {
           You can select the model you would like to view, use the tags or search to filter the list. 
         </Typography>
 
-        <Box display='flex' flexDirection='column' alignItems='center' gap={2} >
-          <Box display='flex' sx={{width: "100%"}} flexDirection='row' justifyContent={"space-between"} alignItems='center'>
+        <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2}}>
+          <Box sx={{display: 'flex', width: "100%", flexDirection: 'row', justifyContent: "space-between", alignItems: 'center'}}>
             <Search searchValueChange={handleSearchValueChange}/>
-            <Tooltip enterTouchDelay={1} placement="right" title={<p style={{ color: `${theme.palette.text.primary}`, fontSize: "16px" }}>Search in the description and the titles of the models. Tags can be used to further segment the search</p>}>
+            <Tooltip enterTouchDelay={1} placement="right" title={<Box component="p" sx={{ color: "text.primary", fontSize: "16px" }}>Search in the description and the titles of the models. Tags can be used to further segment the search</Box>}>
               <HelpIcon sx={{margin: "5px"}}/>
             </Tooltip>
-            <Box flex={1} display={{ xs: 'flex', sm: 'flex' }}  justifyContent='flex-end' flexWrap={"wrap"}>
+            <Box sx={{flex: 1, display: { xs: 'flex', sm: 'flex' }, justifyContent: 'flex-end', flexWrap: "wrap"}}>
             </Box>
           </Box>
           {otherChips}

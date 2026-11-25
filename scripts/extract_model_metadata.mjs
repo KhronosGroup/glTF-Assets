@@ -40,7 +40,7 @@ const keep_dict = {
 }
 
 const ext_to_label = {
-  "KHR_materials_transmission":  "Transmission",
+  "KHR_materials_transmission": "Transmission",
   "KHR_materials_volume": "Volume",
   "KHR_materials_variants": "Variants",
   "KHR_materials_clearcoat": "Clearcoat",
@@ -55,13 +55,18 @@ const ext_to_label = {
   "KHR_lights_punctual": "Lights",
   "KHR_texture_transform": "Texture Transform",
   "KHR_xmp": "XMP",
-  "KHR_xmp_json_ld": "XMP JSON",
+  "KHR_xmp_json_ld": "XMP JSON LD",
   "EXT_texture_webp": "WebP",
   "KHR_materials_dispersion": "Dispersion",
   "KHR_materials_volume_scatter": "Volume Scatter",
-  "EXT_mesh_gpu_instancing": "Mesh Instancing",
+  "KHR_materials_scatter": "Scatter",
+  "EXT_mesh_gpu_instancing": "Mesh GPU Instancing",
   "KHR_materials_diffuse_transmission": "Diffuse Transmission",
-  "KHR_animation_pointer": "Animation Pointer"
+  "KHR_animation_pointer": "Animation Pointer",  
+  "KHR_node_visibility": "Node Visibility",  
+  "KHR_materials_retroreflection": "Retroreflection",
+  "KHR_meshopt_compression": "Meshopt",
+  "KHR_mesh_quantization": "Quantization"
 };
 
 const addTag = (tagMap, tag) => {
@@ -111,6 +116,7 @@ await (async () => {
       const name = encodeURIComponent(metadata.name.replace(/\s+/g, ''));
       OutputModelMap[name] = {};
       OutputModelMap[name].name = metadata.name.replace(/\s+/g, '');
+      OutputModelMap[name].folder = dir.name;
       OutputModelMap[name].label = metadata.name;
       OutputModelMap[name].description = metadata.summary;
       OutputModelMap[name].tags = [];
@@ -231,7 +237,11 @@ for (const tag in ModelTags) {
   TagList.tags.push(tag);
 }
 
-const jsonData = JSON.stringify(OutputModelMap, null, 2); // The `null, 2` makes the output pretty-printed
+const jsonData = JSON.stringify(
+    Object.fromEntries(Object.entries(OutputModelMap).sort()),
+    null,
+    2
+);
 fs.writeFileSync('src/data/model-index.SampleAssets.json', jsonData);
 
 const jsonDataTagList = JSON.stringify(TagList, null, 2); // The `null, 2` makes the output pretty-printed
