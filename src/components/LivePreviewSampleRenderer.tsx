@@ -208,7 +208,6 @@ const loadBlob = async (src: string) => {
 
 export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsCallback}: LivePreviewSampleRendererProps) {
 
-  const [ktxLoaded, setKTXLoaded] = React.useState(false);
   const [dracoLoaded, setDracoLoaded] = React.useState(false);
   const [showOptions, setShowOptions] = React.useState(false);
   const [debugOutput, setDebugOutput] = React.useState("None");
@@ -272,8 +271,9 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
   React.useEffect(() => {
     
-    if((ktxLoaded && dracoLoaded) == false)
+    if(!dracoLoaded)
       return;
+
     if(canvasRef == null || canvasRef.current == null) { return; }
     const canvas = canvasRef.current;
     const webGl2Context = canvas.getContext('webgl2') as WebGL2RenderingContext;
@@ -496,7 +496,7 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
       window.requestAnimationFrame(update);
     };
     load();
-  }, [src, ktxLoaded, dracoLoaded])
+  }, [src, dracoLoaded])
 
   React.useEffect(() => {
     if(canvasRef == null || canvasRef.current == null) { return; }
@@ -547,9 +547,6 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
 
   React.useEffect(() => {
     const isDracoLoaded = !!document.querySelector('script[src="https://www.gstatic.com/draco/v1/decoders/draco_decoder_gltf.js"]')
-    const isKTXLoaded = !!document.querySelector(`script[src="${basePath}/libs/libktx.js"]`)
-
-    setKTXLoaded(isKTXLoaded);
     setDracoLoaded(isDracoLoaded);
 
     const canvas = canvasRef.current;
@@ -576,7 +573,6 @@ export default function LivePreviewSampleRenderer({src, imgSrc, variants, statsC
     return (
       <Box ref={canvasContainerRef}>
         <Script src="https://www.gstatic.com/draco/v1/decoders/draco_decoder_gltf.js" strategy="afterInteractive" onLoad={() => { console.log("LOADED Draco"); setDracoLoaded(true);}} onReady={() => { console.log("READY Draco");}} />
-        <Script src={`${basePath}/libs/libktx.js`} strategy="afterInteractive" onLoad={() => { console.log("LOADED KTX"); setKTXLoaded(true); }} onReady={() => { console.log("READY KTX");}}/>
         <Box ref={canvasContainerWrapperRef} sx={{textAlign: "center", margin: "auto", position: 'relative', minHeight: '50vh'}}>
           <canvas ref={canvasRef} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} style={{display: isModelLoaded? 'block' : 'none', touchAction: 'none', overscrollBehavior: 'contain', width: '100%'}}/>
           <img ref={imgRef} src={imgSrc} style={{display: isModelLoaded? 'none' : 'block', backgroundColor: 'transparent', position: 'absolute', left: 0, top: 0, zIndex: 10, objectFit: 'cover', width:"100%", height:'100%'}} alt="Asset Preview"/>
